@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conspiracy Of Two - Vins d'Afrique du Sud</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="brand-animation">
+                <span class="word word-1">Conspiracy</span>
+                <span class="word word-2">Of</span>
+                <span class="word word-3">Two</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Conspiracy Of Two</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" data-translate="nav.about">À Propos</a></li>
+                <li><a href="#team" data-translate="nav.team">Équipe</a></li>
+                <li><a href="#wines" data-translate="nav.wines">Nos Vins</a></li>
+                <li><a href="#story" data-translate="nav.story">Notre Histoire</a></li>
+                <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button data-lang="fr" class="active flag-fr" title="Français">
+                    <span class="flag-icon"></span>
+                </button>
+                <button data-lang="en" class="flag-gb" title="English">
+                    <div class="uk-flag">
+                        <div class="uk-bg"></div>
+                        <div class="uk-horedstr"></div>
+                        <div class="uk-horedstrsh"></div>
+                        <div class="uk-veredstr"></div>
+                        <div class="uk-veredstrsh"></div>
+                        <div class="uk-bgdiagredstr"></div>
+                        <div class="uk-bgwdiagredstr"></div>
+                        <div class="uk-bgbdiagredstr"></div>
+                        <div class="uk-bgcdiagredstr"></div>
+                        <div class="uk-bgcwdiagredstr"></div>
+                        <div class="uk-bgddiagredstr"></div>
+                    </div>
+                </button>
+                <button data-lang="nl" class="flag-nl" title="Nederlands">
+                    <span class="flag-icon"></span>
+                </button>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title" data-translate="hero.title">L'Art de la Vinification</h2>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Deux passions, un terroir d'exception en Afrique du Sud</p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn btn-primary" data-translate="hero.cta.discover">Découvrir</a>
+                    <a href="#contact" class="btn btn-secondary" data-translate="hero.cta.contact">Nous Contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="pictures/hero-pic.png" alt="Conspiracy Of Two - French and South African wine collaboration" class="hero-pic">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="about.title">À Propos de Conspiracy Of Two</h2>
+                    <p data-translate="about.subtitle">Une alliance franco-néerlandaise au service de l'excellence viticole</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-translate="about.text1">Conspiracy Of Two naît de la rencontre de deux passions et de deux cultures. Lui, français, elle, néerlandaise, unis par l'amour du vin et l'envie de créer quelque chose d'exceptionnel.</p>
+                        <p data-translate="about.text2">Notre mission est de vinifier des vins d'exception en Afrique du Sud, en alliant les techniques traditionnelles européennes aux terroirs uniques de cette région viticole remarquable.</p>
+                        <div class="features">
+                            <div class="feature">
+                                <h3 data-translate="about.feature1.title">🌍 Terroir Unique</h3>
+                                <p data-translate="about.feature1.text">Les vignobles sud-africains offrent des conditions climatiques exceptionnelles</p>
+                            </div>
+                            <div class="feature">
+                                <h3 data-translate="about.feature2.title">🤝 Savoir-Faire</h3>
+                                <p data-translate="about.feature2.text">L'alliance des traditions viticoles françaises et de l'innovation</p>
+                            </div>
+                            <div class="feature">
+                                <h3 data-translate="about.feature3.title">✨ Excellence</h3>
+                                <p data-translate="about.feature3.text">Des vins haut de gamme pour les connaisseurs les plus exigeants</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="team.title">Nos Fondateurs</h2>
+                    <p data-translate="team.subtitle">Deux passionnés unis par l'amour du vin et l'excellence</p>
+                </div>
+                <div class="team-content">
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h3>Vincent</h3>
+                            <p class="member-title" data-translate="team.vincent.title">Conspirateur</p>
+                            <p class="member-description" data-translate="team.vincent.description">
+                                Passionné de viticulture depuis son plus jeune âge, Vincent apporte son expertise française 
+                                dans l'art de la vinification. Fort de ses années d'expérience dans les vignobles de Bordeaux 
+                                et de Bourgogne, il maîtrise parfaitement les techniques traditionnelles qu'il adapte aux 
+                                terroirs uniques d'Afrique du Sud.
+                            </p>
+                            <div class="member-specialties">
+                                <span class="specialty" data-translate="team.specialty.vinification">Vinification</span>
+                                <span class="specialty" data-translate="team.specialty.export">Export</span>
+                                <span class="specialty" data-translate="team.specialty.elevage">Élevage en fûts</span>
+                            </div>
+                        </div>
+                        <div class="member-gallery">
+                            <div class="gallery-container">
+                                <div class="gallery-main">
+                                    <img src="pictures/vincent1.JPG" alt="Vincent - Portrait" class="gallery-main-image active" data-member="vincent">
+                                </div>
+                                <div class="gallery-thumbnails">
+                                    <img src="pictures/vincent1.JPG" alt="Vincent 1" class="thumbnail active" data-full="pictures/vincent1.JPG">
+                                    <img src="pictures/vincent2.JPG" alt="Vincent 2" class="thumbnail" data-full="pictures/vincent2.JPG">
+                                    <img src="pictures/vincent3.JPG" alt="Vincent 3" class="thumbnail" data-full="pictures/vincent3.JPG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-member reverse">
+                        <div class="member-info">
+                            <h3>Rianne</h3>
+                            <p class="member-title" data-translate="team.rianne.title">Conspiratrice</p>
+                            <p class="member-description" data-translate="team.rianne.description">
+                                Originaire des Pays-Bas, Rianne apporte une vision internationale et une approche 
+                                innovante du marketing viticole. Son expertise en développement commercial et sa 
+                                connaissance approfondie des marchés européens font d'elle la parfaite ambassadrice 
+                                de nos vins d'exception.
+                            </p>
+                            <div class="member-specialties">
+                                <span class="specialty" data-translate="team.specialty.vinification">Vinification</span>
+                                <span class="specialty" data-translate="team.specialty.assemblage">Assemblage</span>
+                                <span class="specialty" data-translate="team.specialty.relations">Relations clients</span>
+                            </div>
+                        </div>
+                        <div class="member-gallery">
+                            <div class="gallery-container">
+                                <div class="gallery-main">
+                                    <img src="pictures/rianne1.JPG" alt="Rianne - Portrait" class="gallery-main-image active" data-member="rianne">
+                                </div>
+                                <div class="gallery-thumbnails">
+                                    <img src="pictures/rianne1.JPG" alt="Rianne 1" class="thumbnail active" data-full="pictures/rianne1.JPG">
+                                    <img src="pictures/rianne2.JPG" alt="Rianne 2" class="thumbnail" data-full="pictures/rianne2.JPG">
+                                    <img src="pictures/rianne3.JPG" alt="Rianne 3" class="thumbnail" data-full="pictures/rianne3.JPG">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-collaboration">
+                    <div class="collaboration-content">
+                        <h3 data-translate="team.collaboration.title">Une Collaboration Exceptionnelle</h3>
+                        <p data-translate="team.collaboration.text">
+                            La rencontre de Vincent et Rianne dans les vignobles de Stellenbosch a donné naissance à une 
+                            synergie unique. Leurs compétences complémentaires et leur vision partagée de l'excellence 
+                            font de Conspiracy Of Two bien plus qu'une simple entreprise viticole : c'est l'histoire 
+                            d'une amitié et d'une passion communes pour créer des vins d'exception.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wines Section -->
+        <section id="wines" class="wines">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="wines.title">Nos Vins</h2>
+                    <p data-translate="wines.subtitle">Une sélection rigoureuse de cépages d'exception</p>
+                </div>
+                <div class="wines-grid">
+                    <div class="wine-card">
+                        <div class="wine-image">🍷</div>
+                        <h3 data-translate="wines.signature.title">Cuvée Signature</h3>
+                        <p data-translate="wines.signature.description">Un assemblage unique de Cabernet Sauvignon et Merlot, élevé en fûts de chêne français.</p>
+                    </div>
+                    <div class="wine-card">
+                        <div class="wine-image">🍾</div>
+                        <h3 data-translate="wines.blanc.title">Blanc de Prestige</h3>
+                        <p data-translate="wines.blanc.description">Chardonnay et Sauvignon Blanc, vinifiés selon les méthodes traditionnelles champenoises.</p>
+                    </div>
+                    <div class="wine-card">
+                        <div class="wine-image">🥂</div>
+                        <h3 data-translate="wines.rose.title">Rosé d'Été</h3>
+                        <p data-translate="wines.rose.description">Un rosé délicat aux notes florales, parfait pour les moments de convivialité.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Story Section -->
+        <section id="story" class="story">
+            <div class="container">
+                <div class="story-content">
+                    <div class="story-text">
+                        <h2 data-translate="story.title">Notre Histoire</h2>
+                        <p data-translate="story.text1">Tout a commencé par une rencontre fortuite dans les vignobles de Stellenbosch. Deux âmes passionnées par l'art de la vinification, venues de France et des Pays-Bas, ont découvert dans les terroirs sud-africains un potentiel extraordinaire.</p>
+                        <p data-translate="story.text2">Conspiracy Of Two, c'est plus qu'une entreprise viticole : c'est l'histoire d'une complicité, d'une vision partagée et d'un engagement commun vers l'excellence.</p>
+                        <blockquote data-translate="story.quote">
+                            "Le vin, c'est la poésie de la terre qui se révèle dans chaque gorgée."
+                        </blockquote>
+                    </div>
+                    <div class="story-image">
+                        <img src="pictures/vincent_rianne_ourstory3.jpg" alt="Vincent et Rianne - Notre Histoire" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="contact.title">Contactez-Nous</h2>
+                    <p data-translate="contact.subtitle">Nous serions ravis d'échanger avec vous sur nos vins et notre passion</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 data-translate="contact.info.title">Informations</h3>
+                        <div class="contact-item">
+                            <strong data-translate="contact.info.email">📧 Email</strong>
+                            <p>contact@conspiracyoftwo.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong data-translate="contact.info.phone">📱 Téléphone</strong>
+                            <p>+33 (0)1 23 45 67 89</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong data-translate="contact.info.address">📍 Adresse</strong>
+                            <p data-translate="contact.info.address.text">Stellenbosch, Afrique du Sud<br>
+                            Bureau Europe : Paris, France</p>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" data-translate="contact.form.name">Nom *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" data-translate="contact.form.email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" data-translate="contact.form.subject">Sujet</label>
+                            <select id="subject" name="subject">
+                                <option value="" data-translate="contact.form.subject.choose">Choisissez un sujet</option>
+                                <option value="information" data-translate="contact.form.subject.info">Demande d'information</option>
+                                <option value="partnership" data-translate="contact.form.subject.partnership">Partenariat</option>
+                                <option value="distribution" data-translate="contact.form.subject.distribution">Distribution</option>
+                                <option value="other" data-translate="contact.form.subject.other">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" data-translate="contact.form.message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" data-translate="contact.form.submit">Envoyer le Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Conspiracy Of Two</h3>
+                    <p data-translate="footer.description">L'excellence viticole franco-néerlandaise en Afrique du Sud</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-translate="footer.links">Liens Rapides</h4>
+                    <ul>
+                        <li><a href="#about" data-translate="nav.about">À Propos</a></li>
+                        <li><a href="#team" data-translate="nav.team">Équipe</a></li>
+                        <li><a href="#wines" data-translate="nav.wines">Nos Vins</a></li>
+                        <li><a href="#story" data-translate="nav.story">Notre Histoire</a></li>
+                        <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4 data-translate="footer.social">Suivez-Nous</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-translate="footer.copyright">&copy; 2024 Conspiracy Of Two. Tous droits réservés. | L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
