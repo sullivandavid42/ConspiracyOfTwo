@@ -43,10 +43,46 @@ h1, h2, h3, h4, h5, h6,
     backdrop-filter: blur(10px);
 }
 
+/* Section Navigator Button */
+.section-navigator {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.section-navigator:hover {
+    background-color: #000000;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.section-navigator svg {
+    width: 24px;
+    height: 24px;
+    stroke: #000000;
+    transition: stroke 0.3s ease;
+}
+
+.section-navigator:hover svg {
+    stroke: #ffffff;
+}
+
 .lang-btn {
     background-color: transparent;
     color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid #ffffff;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
@@ -56,14 +92,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .lang-btn:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.4);
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #ffffff;
 }
 
 .lang-btn.active {
-    background-color: #d4af37;
+    background-color: #ffffff;
     color: #000000;
-    border-color: #d4af37;
+    border-color: #ffffff;
 }
 
 /* Hero Grapes Section */
@@ -196,13 +233,16 @@ h1, h2, h3, h4, h5, h6,
 /* Founders Section */
 .founders-section {
     background-color: #000000;
-    padding: 0;
+    padding: 4rem;
+    height: 90vh;
+    min-height: 650px;
 }
 
 .founders-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
+    height: 100%;
 }
 
 .founder-block {
@@ -227,7 +267,8 @@ h1, h2, h3, h4, h5, h6,
     border-radius: 4px;
 }
 
-.founder-info {
+.founder-info,
+.founder-content {
     padding: 1rem 2.5rem 2.5rem 2.5rem;
     flex: 1;
 }
@@ -543,12 +584,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .crowdfunding-contact {
-    background-color: #d4af37;
+    background-color: #ffffff;
     color: #000000;
     font-size: 1.1rem;
     font-weight: 700;
     padding: 1rem 2.5rem;
-    border: none;
+    border: 2px solid #ffffff;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -557,9 +598,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .crowdfunding-contact:hover {
-    background-color: #f0c040;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 
 /* Contact Section */
@@ -707,9 +750,9 @@ h1, h2, h3, h4, h5, h6,
 
 .form-submit {
     padding: 1rem 3rem;
-    background-color: #d4af37;
+    background-color: #ffffff;
     color: #000000;
-    border: none;
+    border: 2px solid #ffffff;
     border-radius: 4px;
     font-size: 1.1rem;
     font-weight: 700;
@@ -721,9 +764,11 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .form-submit:hover {
-    background-color: #f0c040;
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 
 /* Responsive Design */

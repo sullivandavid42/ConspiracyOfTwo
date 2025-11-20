@@ -399,18 +399,55 @@ function createLightbox(imageSrc, imageAlt) {
     });
 }
 
+// Section Navigator
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('section');
+    const navigator = document.getElementById('sectionNavigator');
+    let currentSectionIndex = 0;
+
+    if (navigator && sections.length > 0) {
+        navigator.addEventListener('click', function() {
+            currentSectionIndex = (currentSectionIndex + 1) % sections.length;
+            sections[currentSectionIndex].scrollIntoView({ 
+                behavior: 'smooth',
+                block: 'start'
+            });
+        });
+
+        // Update current section on scroll
+        let scrollTimeout;
+        window.addEventListener('scroll', function() {
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                const scrollPosition = window.scrollY + window.innerHeight / 2;
+                
+                sections.forEach((section, index) => {
+                    const sectionTop = section.offsetTop;
+                    const sectionBottom = sectionTop + section.offsetHeight;
+                    
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+                        currentSectionIndex = index;
+                    }
+                });
+            }, 100);
+        });
+    }
+});
+
 // Initialize language system// Wait for DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', function() {
     // Loading screen functionality
     const loadingScreen = document.getElementById('loading-screen');
     
     // Hide loading screen after animation completes
-    setTimeout(() => {
-        loadingScreen.classList.add('fade-out');
+    if (loadingScreen) {
         setTimeout(() => {
-            loadingScreen.style.display = 'none';
-        }, 800);
-    }, 4000); // Total animation duration: 4 seconds
+            loadingScreen.classList.add('fade-out');
+            setTimeout(() => {
+                loadingScreen.style.display = 'none';
+            }, 800);
+        }, 4000); // Total animation duration: 4 seconds
+    }
     // Initialize language system
     if (typeof initializeLanguageSystem === 'function') {
         initializeLanguageSystem();
