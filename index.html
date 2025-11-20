@@ -3,14 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conspiracy Of Two - New Design</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Conspiracy Of Two | Vins d'Afrique du Sud par Vincent Pontet & Rianne Ogink</title>
+    <meta name="title" content="Conspiracy Of Two | Vins d'Afrique du Sud par Vincent Pontet & Rianne Ogink">
+    <meta name="description" content="Découvrez Conspiracy Of Two, projet viticole de Vincent Pontet et Rianne Ogink. Chenin Blanc, Viognier et Syrah du Swartland, Afrique du Sud. Soutenez notre crowdfunding.">
+    <meta name="keywords" content="vin afrique du sud, swartland, chenin blanc, viognier, syrah, vincent pontet, rianne ogink, crowdfunding vin, conspiracy of two, condrieu, sommelier">
+    <meta name="author" content="Vincent Pontet & Rianne Ogink">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://conspiracyoftwo.com/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://conspiracyoftwo.com/">
+    <meta property="og:title" content="Conspiracy Of Two | Vins d'Afrique du Sud">
+    <meta property="og:description" content="Découvrez notre projet viticole en Afrique du Sud. Chenin Blanc, Viognier et Syrah du Swartland. Soutenez notre aventure.">
+    <meta property="og:image" content="https://conspiracyoftwo.com/pictures/picture_section_1_option.jpg">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:locale:alternate" content="nl_NL">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://conspiracyoftwo.com/">
+    <meta property="twitter:title" content="Conspiracy Of Two | Vins d'Afrique du Sud">
+    <meta property="twitter:description" content="Découvrez notre projet viticole en Afrique du Sud. Chenin Blanc, Viognier et Syrah du Swartland.">
+    <meta property="twitter:image" content="https://conspiracyoftwo.com/pictures/picture_section_1_option.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Winery",
+      "name": "Conspiracy Of Two",
+      "description": "Projet viticole de Vincent Pontet et Rianne Ogink produisant du Chenin Blanc, Viognier et Syrah dans le Swartland, Afrique du Sud.",
+      "url": "https://conspiracyoftwo.com",
+      "logo": "https://conspiracyoftwo.com/pictures/picture_section_1_option.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Swartland",
+        "addressCountry": "ZA"
+      },
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Vincent Pontet",
+          "jobTitle": "Winemaker",
+          "description": "Vigneron avec plus de 20 ans d'expérience dans des domaines prestigieux."
+        },
+        {
+          "@type": "Person",
+          "name": "Rianne Ogink",
+          "jobTitle": "Winemaker & Sommelier",
+          "description": "Ancienne sommelière et assistante œnologue avec WSET Diploma niveau 4."
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/conspiracy.of.two"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@conspiracyoftwo.com",
+        "contactType": "Customer Service"
+      }
+    }
+    </script>
 </head>
 <body>
     <!-- Language Selector -->
@@ -28,7 +99,7 @@
     </button>
 
     <!-- Hero Section with Grapes -->
-    <section class="hero-grapes">
+    <section class="hero-grapes" role="banner" aria-label="Hero section">
         <div class="hero-grapes-bg">
             <img src="pictures/picture_section_1_option.jpg" alt="Grapes background" class="hero-bg-image">
             <div class="hero-overlay"></div>
@@ -39,7 +110,7 @@
     </section>
 
     <!-- Main Hero Section -->
-    <section class="main-hero">
+    <section class="main-hero" role="region" aria-label="About us">
         <div class="main-hero-container">
             <div class="hero-image-section">
                 <img src="pictures/picture_section_2.jpg" alt="Vincent Pontet & Rianne Ogink" class="couple-photo">
@@ -66,7 +137,7 @@
     </section>
 
     <!-- Founders Section -->
-    <section class="founders-section">
+    <section class="founders-section" id="founders" role="region" aria-label="Founders">
         <div class="founders-container">
             <!-- Rianne Block (Left) - Photo top, Text bottom -->
             <div class="founder-block rianne-block">
@@ -108,7 +179,7 @@
     </section>
 
     <!-- Wines Section -->
-    <section class="wines-section">
+    <section class="wines-section" id="wines" role="region" aria-label="Our wines">
         <div class="wines-background">
             <img src="pictures/picture_section_4_grapes.jpg" alt="Wine grapes" class="wines-bg-image">
         </div>
@@ -123,7 +194,7 @@
     </section>
 
     <!-- Adventure Section -->
-    <section class="adventure-section">
+    <section class="adventure-section" id="adventure" role="region" aria-label="Our adventure">
         <div class="adventure-container">
             <div class="adventure-content">
                 <h2 class="adventure-title" data-translate="adventure.title">REJOIGNEZ<br>NOTRE<br>AVENTURE</h2>
@@ -142,7 +213,7 @@
     </section>
 
     <!-- Crowdfunding Section -->
-    <section class="crowdfunding-section">
+    <section class="crowdfunding-section" id="crowdfunding" role="region" aria-label="Support us">
         <div class="crowdfunding-header">
             <h2 class="crowdfunding-title" data-translate="crowdfunding.title">SOUTENEZ NOTRE PROJET</h2>
             <p class="crowdfunding-intro" data-translate="crowdfunding.intro">Choisissez votre niveau de participation et rejoignez l'aventure Conspiracy of Two</p>
@@ -245,7 +316,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact-section">
+    <section class="contact-section" id="contact" role="region" aria-label="Contact us">
         <div class="contact-background">
             <img src="pictures/picture_section_7.jpg" alt="Vineyard grapes" class="contact-bg-image">
             <div class="contact-overlay"></div>
