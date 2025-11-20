@@ -1,558 +1,309 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conspiracy Of Two - South African Wines | Vincent Pontet & Rianne Ogink</title>
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Conspiracy Of Two - Exceptional wines by Vincent Pontet and Rianne Ogink in South Africa. Discover our Viognier, Chenin Blanc and Syrah cuvées from exceptional terroirs.">
-    <meta name="keywords" content="wine, South Africa, Vincent Pontet, Rianne Ogink, Viognier, Syrah, Chenin Blanc, winemaking, terroir, Condrieu, Stellenbosch">
-    <meta name="author" content="Vincent Pontet, Rianne Ogink">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="en">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://conspiracyoftwo.com/">
-    <meta property="og:title" content="Conspiracy Of Two - South African Wines">
-    <meta property="og:description" content="Exceptional wines by Vincent Pontet and Rianne Ogink in South Africa. Discover our Viognier, Chenin Blanc and Syrah cuvées.">
-    <meta property="og:image" content="https://conspiracyoftwo.com/pictures/og-image.jpg">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:site_name" content="Conspiracy Of Two">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://conspiracyoftwo.com/">
-    <meta property="twitter:title" content="Conspiracy Of Two - South African Wines">
-    <meta property="twitter:description" content="Exceptional wines by Vincent Pontet and Rianne Ogink in South Africa. Discover our Viognier, Chenin Blanc and Syrah cuvées.">
-    <meta property="twitter:image" content="https://conspiracyoftwo.com/pictures/og-image.jpg">
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://conspiracyoftwo.com/">
-    
-    <!-- Alternate language versions -->
-    <link rel="alternate" hreflang="en" href="https://conspiracyoftwo.com/?lang=en">
-    <link rel="alternate" hreflang="fr" href="https://conspiracyoftwo.com/?lang=fr">
-    <link rel="alternate" hreflang="nl" href="https://conspiracyoftwo.com/?lang=nl">
-    <link rel="alternate" hreflang="x-default" href="https://conspiracyoftwo.com/">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <title>Conspiracy Of Two - New Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- Schema.org structured data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Conspiracy Of Two",
-        "url": "https://conspiracyoftwo.com",
-        "logo": "https://conspiracyoftwo.com/pictures/logo.png",
-        "description": "Vins d'exception de Vincent Pontet et Rianne Ogink en Afrique du Sud",
-        "foundingDate": "2024",
-        "founders": [
-            {
-                "@type": "Person",
-                "name": "Vincent Pontet",
-                "nationality": "French",
-                "jobTitle": "Winemaker"
-            },
-            {
-                "@type": "Person", 
-                "name": "Rianne Ogink",
-                "nationality": "Dutch",
-                "jobTitle": "Winemaker"
-            }
-        ],
-        "location": {
-            "@type": "Place",
-            "name": "South Africa",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "ZA"
-            }
-        },
-        "industry": "Wine Production",
-        "products": [
-            {
-                "@type": "Product",
-                "name": "Viognier",
-                "category": "White Wine"
-            },
-            {
-                "@type": "Product",
-                "name": "Chenin Blanc", 
-                "category": "White Wine"
-            },
-            {
-                "@type": "Product",
-                "name": "Syrah",
-                "category": "Red Wine"
-            }
-        ],
-        "sameAs": [
-            "https://facebook.com/conspiracyoftwo",
-            "https://instagram.com/conspiracyoftwo",
-            "https://linkedin.com/company/conspiracyoftwo"
-        ]
-    }
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Loading Screen -->
-    <div id="loading-screen" class="loading-screen">
-        <div class="loading-content">
-            <div class="brand-animation">
-                <span class="word word-1">Conspiracy</span>
-                <span class="word word-2">Of</span>
-                <span class="word word-3">Two</span>
-            </div>
-            <div class="loading-bar">
-                <div class="loading-progress"></div>
-            </div>
-        </div>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <button data-lang="fr" class="lang-btn active">FR</button>
+        <button data-lang="en" class="lang-btn">EN</button>
+        <button data-lang="nl" class="lang-btn">NL</button>
     </div>
 
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-brand">
-                <h1>Conspiracy Of Two</h1>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#about" data-translate="nav.about">À Propos</a></li>
-                <li><a href="#team" data-translate="nav.team">Équipe</a></li>
-                <li><a href="#wines" data-translate="nav.wines">Nos Vins</a></li>
-                <li><a href="#story" data-translate="nav.story">Notre Histoire</a></li>
-                <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
-            </ul>
-            <div class="language-selector">
-                <button data-lang="fr" class="active flag-fr" title="Français">
-                    <span class="flag-icon"></span>
-                </button>
-                <button data-lang="en" class="flag-gb" title="English">
-                    <div class="uk-flag">
-                        <div class="uk-bg"></div>
-                        <div class="uk-horedstr"></div>
-                        <div class="uk-horedstrsh"></div>
-                        <div class="uk-veredstr"></div>
-                        <div class="uk-veredstrsh"></div>
-                        <div class="uk-bgdiagredstr"></div>
-                        <div class="uk-bgwdiagredstr"></div>
-                        <div class="uk-bgbdiagredstr"></div>
-                        <div class="uk-bgcdiagredstr"></div>
-                        <div class="uk-bgcwdiagredstr"></div>
-                        <div class="uk-bgddiagredstr"></div>
-                    </div>
-                </button>
-                <button data-lang="nl" class="flag-nl" title="Nederlands">
-                    <span class="flag-icon"></span>
-                </button>
-            </div>
-            <div class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
+    <!-- Hero Section with Grapes -->
+    <section class="hero-grapes">
+        <div class="hero-grapes-bg">
+            <img src="pictures/picture_section_1_option.jpg" alt="Grapes background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-names" data-translate="hero.names">VINCENT PONTET & RIANNE OGINK</h1>
+        </div>
+    </section>
 
-    <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-container">
-                <div class="hero-content">
-                    <h2 class="hero-title" data-translate="hero.title">Aucune règle, juste l'expression</h2>
-                    <p class="hero-subtitle" data-translate="hero.subtitle">vins de Vincent Pontet & Rianne Ogink</p>
-                    <div class="hero-cta">
-                        <a href="#about" class="btn btn-primary" data-translate="hero.cta.discover">Explorer</a>
-                        <a href="#contact" class="btn btn-secondary" data-translate="hero.cta.contact">Nous contacter</a>
-                    </div>
-                </div>
+    <!-- Main Hero Section -->
+    <section class="main-hero">
+        <div class="main-hero-container">
+            <div class="hero-image-section">
+                <img src="pictures/picture_section_2.jpg" alt="Vincent Pontet & Rianne Ogink" class="couple-photo">
             </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="about">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-translate="about.title">CONSPIRACY OF TWO</h2>
-                    <p class="about-tagline" data-translate="about.subtitle">Quand deux chemins se croisent, le vin conspire</p>
-                </div>
-                <div class="about-content">
-                    <div class="about-story">
-                        <div class="about-text">
-                            <p data-translate="about.text1">Conspiracy Of Two naît de la rencontre de deux passions et de deux cultures. Lui, français, elle, néerlandaise, unis par l'amour du vin et l'envie de créer quelque chose d'exceptionnel.</p>
-                            <p data-translate="about.text2">Notre mission est de vinifier des vins d'exception en Afrique du Sud, en alliant les techniques traditionnelles européennes aux terroirs uniques de cette région viticole remarquable.</p>
-                        </div>
-                        <div class="about-images">
-                            <div class="about-image">
-                                <img src="pictures/vincent_rianne_ourstory.jpg" alt="Vincent et Rianne - Conspiracy Of Two">
-                            </div>
-                            <div class="about-image">
-                                <img src="pictures/vincent_rianne_ourstory2.jpg" alt="Vincent et Rianne - Conspiracy Of Two">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team Section -->
-        <section id="team" class="team">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-translate="team.title">Nos Fondateurs</h2>
-                    <p data-translate="team.subtitle">Deux passionnés unis par l'amour du vin et l'excellence</p>
-                </div>
-                <div class="team-content">
-                    <div class="team-member">
-                        <div class="member-info">
-                            <h3 data-translate="team.vincent.title">Vincent Pontet</h3>
-                            <p class="member-description" data-translate="team.vincent.description">
-                                Né et élevé à Condrieu (France), Vincent a appris son métier dans des caves de classe mondiale — d'E. Guigal dans le Rhône à Joseph Drouhin en Bourgogne, Giesen en Nouvelle-Zélande, Bimbadgen en Australie et Boekenhoutskloof en Afrique du Sud. Aujourd'hui, il partage ses connaissances à travers Lyon Winetours et son bar à vins Les Enfants du Rhône. Son coup de cœur ? Le Viognier bien sûr.
-                            </p>
-                        </div>
-                        <div class="member-gallery">
-                            <div class="gallery-container">
-                                <div class="gallery-main">
-                                    <img src="pictures/vincent1.JPG" alt="Vincent - Portrait" class="gallery-main-image active" data-member="vincent">
-                                </div>
-                                <div class="gallery-thumbnails">
-                                    <img src="pictures/vincent1.JPG" alt="Vincent 1" class="thumbnail active" data-full="pictures/vincent1.JPG">
-                                    <img src="pictures/vincent2.JPG" alt="Vincent 2" class="thumbnail" data-full="pictures/vincent2.JPG">
-                                    <img src="pictures/vincent3.JPG" alt="Vincent 3" class="thumbnail" data-full="pictures/vincent3.JPG">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="team-member reverse">
-                        <div class="member-info">
-                            <h3 data-translate="team.rianne.title">Rianne Ogink</h3>
-                            <p class="member-description" data-translate="team.rianne.description">
-                                Ancienne sommelière au restaurant étoilé Michelin Zoldering à Amsterdam. Rianne a voyagé à travers le monde pour explorer les régions viticoles tout en obtenant son diplôme WSET (niveau 4). Après une expérience pratique au Château Smith Haut Lafitte, Château Palmer à Bordeaux, et Damascene en Afrique du Sud, elle a travaillé (jusqu'à récemment) comme assistante vigneronne au célèbre domaine Georges Vernay à Condrieu. Sa passion ? La Syrah des coteaux escarpés.
-                            </p>
-                        </div>
-                        <div class="member-gallery">
-                            <div class="gallery-container">
-                                <div class="gallery-main">
-                                    <img src="pictures/rianne1.JPG" alt="Rianne - Portrait" class="gallery-main-image active" data-member="rianne">
-                                </div>
-                                <div class="gallery-thumbnails">
-                                    <img src="pictures/rianne1.JPG" alt="Rianne 1" class="thumbnail active" data-full="pictures/rianne1.JPG">
-                                    <img src="pictures/rianne2.JPG" alt="Rianne 2" class="thumbnail" data-full="pictures/rianne2.JPG">
-                                    <img src="pictures/rianne3.JPG" alt="Rianne 3" class="thumbnail" data-full="pictures/rianne3.JPG">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Conspiracy of Many Section -->
-        <section id="conspiracy" class="conspiracy">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-translate="conspiracy.title">CONSPIRACY OF MANY</h2>
-                    <p class="conspiracy-tagline" data-translate="conspiracy.subtitle">Une conspiration que vous voudrez rejoindre</p>
-                </div>
-                <div class="conspiracy-content">
-                    <div class="conspiracy-intro">
-                        <h3 data-translate="conspiracy.intro">Faites partie de notre conspiration !</h3>
-                        <p data-translate="conspiracy.text1">Le vin, c'est plus qu'une boisson – ce sont des gens, un lieu et un moment. Ce sont des souvenirs et des rêves capturés dans une bouteille. Conspiracy of Two est notre façon de nous exprimer à travers le vin.</p>
-                        <p data-translate="conspiracy.text2">Après des années d'apprentissage, de dégustation et de travail dans différents coins du monde viticole, nous sommes prêts à franchir la prochaine étape : créer des vins qui reflètent notre propre vision. Pour nous, il s'agit de liberté, de créativité et surtout de vin de qualité que nous aimons boire.</p>
-                        <p data-translate="conspiracy.text3">En janvier 2026, nous partons pour la région renommée du Swartland en Afrique du Sud. Là, nous nous approvisionnerons en Chenin Blanc, Viognier et Syrah de haute qualité auprès de vignerons de confiance pour élaborer notre premier millésime. Un an plus tard, nous serons de retour pour la mise en bouteille. Peu après, au printemps 2027, nous serons prêts à partager les vins avec vous !</p>
-                        <p data-translate="conspiracy.text4">C'est un long voyage avant que les premières gorgées puissent être prises, mais cela en vaudra la peine. Avec votre soutien, nous pouvons donner vie à Conspiracy of Two. Voici comment vous pouvez nous aider :</p>
-                    </div>
-                    
-                    <div class="support-options">
-                        <div class="support-section">
-                            <h4 data-translate="conspiracy.support.title">SOUTENEZ-NOUS PAR DONATION</h4>
-                            <p data-translate="conspiracy.support.description">Cet argent sera dépensé pour les raisins, la location de cave, les fûts, etc.</p>
-                            <p class="disclaimer" data-translate="conspiracy.support.disclaimer">Avertissement : Les vins seront disponibles au printemps 2027</p>
-                            
-                            <div class="support-options-grid">
-                                <div class="support-option donation-card">
-                                    <h5 data-translate="conspiracy.toast.title">Un toast de loin</h5>
-                                    <div class="donation-content">
-                                        <div class="price-badge">
-                                            <span class="price-highlight">€libre</span>
-                                        </div>
-                                        <p class="donation-description" data-translate="conspiracy.toast.description">Chaque euro est une grande aide ! Votre nom sera noté sur l'un de nos fûts. Vous recevrez des mises à jour exclusives et des images en coulisses par e-mail.</p>
-                                    </div>
-                                </div>
-                                <div class="support-option donation-card">
-                                    <h5 data-translate="conspiracy.necessities.title">Nécessités de conspiration</h5>
-                                    <div class="donation-content">
-                                        <div class="price-badge">
-                                            <span class="price-highlight">€50</span>
-                                        </div>
-                                        <p class="donation-description" data-translate="conspiracy.necessities.description">Porte-clés, tire-bouchon, sac en lin, T-shirt</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="support-section">
-                            <h4 data-translate="conspiracy.preorder.title">PRÉ-COMMANDEZ NOS BOUTEILLES</h4>
-                            <div class="preorder-option">
-                                <h5 data-translate="conspiracy.firstpour.title">Le pack première dégustation</h5>
-                                <p data-translate="conspiracy.firstpour.description">Avec explication</p>
-                                <div class="price-options">
-                                    <div class="price-option">
-                                        <span class="price-highlight">€120</span>
-                                        <span class="price-description" data-translate="conspiracy.firstpour.mix3">Caisse mixte 3 bouteilles</span>
-                                    </div>
-                                    <div class="price-option">
-                                        <span class="price-highlight">€200</span>
-                                        <span class="price-description" data-translate="conspiracy.firstpour.mix6">Caisse mixte 6 bouteilles</span>
-                                    </div>
-                                    <div class="price-option">
-                                        <span class="price-highlight">€370</span>
-                                        <span class="price-description" data-translate="conspiracy.firstpour.mix12">Caisse mixte 12 bouteilles</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="support-section">
-                            <h4 data-translate="conspiracy.experience.title">VIVEZ LA CONSPIRATION</h4>
-                            <div class="experience-options">
-                                <div class="experience-option">
-                                    <h5 data-translate="conspiracy.winemakers.title">Le pack vignerons</h5>
-                                    <div class="winemaker-option highlighted">
-                                        <span class="price-highlight">€450 p.p.</span>
-                                        <span class="price-description" data-translate="conspiracy.winemakers.day">Passez une journée à visiter avec nous à Condrieu, France, pour découvrir la version européenne du Viognier et de la Syrah. Déjeuner et transport depuis Lyon inclus.</span>
-                                    </div>
-                                    <div class="option-separator">OU</div>
-                                    <div class="winemaker-option highlighted">
-                                        <span class="price-highlight">€5000 p.p.</span>
-                                        <span class="price-description" data-translate="conspiracy.winemakers.tour">Passez 5 jours en visite privée avec nous. Nous découvrirons les régions viticoles d'Afrique du Sud pour découvrir nos cépages à travers différentes dégustations et visites, hôtel, transport et déjeuners inclus (billets d'avion exclus).</span>
-                                    </div>
-                                </div>
-                                <div class="experience-option">
-                                    <h5 data-translate="conspiracy.sommeliers.title">Le pack sommeliers</h5>
-                                    <div class="winemaker-option highlighted">
-                                        <span class="price-highlight">€200 p.p.</span>
-                                        <span class="price-description" data-translate="conspiracy.sommeliers.description">Profitez d'un dîner exclusif avec nous à Condrieu (France) ou en Afrique du Sud (frais de voyage non inclus) avec des vins exclusifs de Viognier, Chenin Blanc et Syrah. Maximum 6 personnes par réservation</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="support-section">
-                            <h4 data-translate="conspiracy.barrel.title">SOYEZ LA CONSPIRATION</h4>
-                            <div class="winemaker-option highlighted">
-                                <span class="price-highlight">€6900</span>
-                                <span class="price-description" data-translate="conspiracy.barrel.description">Achetez votre fût (environ 250 bouteilles de vin au choix) et obtenez votre bouteille avec caisse spécialisée</span>
-                            </div>
-                        </div>
-                        
-                        <div class="support-section">
-                            <h4 data-translate="conspiracy.creative.title">FAÇONS CRÉATIVES DE REJOINDRE LA CONSPIRATION</h4>
-                            <p data-translate="conspiracy.creative.description">Il pourrait y avoir une autre façon de nous aider. Pensez par exemple à :</p>
-                            <ul class="creative-list">
-                                <li data-translate="conspiracy.creative.list1">Présenter nos vins à vos amis</li>
-                                <li data-translate="conspiracy.creative.list2">Importer nos vins</li>
-                                <li data-translate="conspiracy.creative.list3">Écrire sur notre parcours de conspiration viticole</li>
-                                <li data-translate="conspiracy.creative.list4">Montage professionnel d'images et de vidéos</li>
-                                <li data-translate="conspiracy.creative.list5">Conseils juridiques/comptables</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="conspiracy-footer">
-                        <p class="shipping-info" data-translate="conspiracy.shipping">*Tous les vins seront expédiés avec assurance et suivi, frais d'expédition non inclus</p>
-                        <p class="cta-text" data-translate="conspiracy.cta">Veuillez cliquer sur votre façon préférée de soutenir et laisser vos coordonnées pour que nous puissions vous contacter !</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Wines Section -->
-        <section id="wines" class="wines">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-translate="wines.title">OUR WINES</h2>
-                    <p class="wines-tagline" data-translate="wines.tagline">Chenin Blanc, Viognier and Syrah crafted in South Africa, conspired across the world</p>
-                </div>
-                
-                <div class="wines-content">
-                    <div class="wines-coming-soon">
-                        <h3 data-translate="wines.coming.title">Soon to be revealed</h3>
-                        <p data-translate="wines.coming.description">Do you want to be the first to know? Follow our winemaker's journal 'Fresh Conspiracies'</p>
-                        
-                        <div class="wines-buttons">
-                            <a href="#" class="btn-primary" data-translate="wines.journal.btn">Fresh Conspiracies</a>
-                            <a href="#conspiracy" class="btn-secondary" data-translate="wines.claim.btn">Claim your bottles</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <div class="section-header">
-                    <h2 data-translate="contact.title">Contactez-Nous</h2>
-                    <p data-translate="contact.subtitle">Nous serions ravis d'échanger avec vous sur nos vins et notre passion</p>
-                </div>
-                <div class="contact-content">
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name" data-translate="contact.form.name">Nom *</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" data-translate="contact.form.email">Email *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject" data-translate="contact.form.subject">Sujet</label>
-                            <select id="subject" name="subject">
-                                <option value="" data-translate="contact.form.subject.choose">Choisissez un sujet</option>
-                                <option value="information" data-translate="contact.form.subject.info">Demande d'information</option>
-                                <option value="partnership" data-translate="contact.form.subject.partnership">Partenariat</option>
-                                <option value="distribution" data-translate="contact.form.subject.distribution">Distribution</option>
-                                <option value="other" data-translate="contact.form.subject.other">Autre</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label data-translate="contact.form.funding">Options de financement participatif</label>
-                            <div class="funding-options">
-                                <div class="funding-category">
-                                    <h6>Donations</h6>
-                                    <div class="checkbox-group">
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="toast">
-                                            <span data-translate="contact.form.funding.toast">Un toast de loin (€montant libre)</span>
-                                        </label>
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="necessities">
-                                            <span data-translate="contact.form.funding.necessities">Nécessités de conspiration (€50)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                
-                                <div class="funding-category">
-                                    <h6>Pré-commandes</h6>
-                                    <div class="checkbox-group">
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="mix3">
-                                            <span data-translate="contact.form.funding.mix3">Pack première dégustation - 3 bouteilles (€120)</span>
-                                        </label>
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="mix6">
-                                            <span data-translate="contact.form.funding.mix6">Pack première dégustation - 6 bouteilles (€200)</span>
-                                        </label>
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="mix12">
-                                            <span data-translate="contact.form.funding.mix12">Pack première dégustation - 12 bouteilles (€370)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                
-                                <div class="funding-category">
-                                    <h6>Expériences</h6>
-                                    <div class="checkbox-group">
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="winemakers-day">
-                                            <span data-translate="contact.form.funding.winemakers-day">Pack vignerons - Journée Condrieu (€450 p.p.)</span>
-                                        </label>
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="winemakers-tour">
-                                            <span data-translate="contact.form.funding.winemakers-tour">Pack vignerons - 5 jours Afrique du Sud (€5000 p.p.)</span>
-                                        </label>
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="sommeliers">
-                                            <span data-translate="contact.form.funding.sommeliers">Pack sommeliers - Dîner exclusif (€200 p.p.)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                
-                                <div class="funding-category">
-                                    <h6>Premium</h6>
-                                    <div class="checkbox-group">
-                                        <label class="checkbox-label">
-                                            <input type="checkbox" name="funding-option" value="barrel">
-                                            <span data-translate="contact.form.funding.barrel">Achat de fût complet (€6900)</span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="message" data-translate="contact.form.message">Message *</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary" data-translate="contact.form.submit">Envoyer le Message</button>
-                    </form>
-                    
-                    <div class="contact-info">
-                        <h3 data-translate="contact.info.title">Informations</h3>
-                        <div class="contact-items">
-                            <div class="contact-item">
-                                <strong data-translate="contact.info.email">📧 Email</strong>
-                                <p>contact@conspiracyoftwo.com</p>
-                            </div>
-                            <div class="contact-item">
-                                <strong data-translate="contact.info.phone">📱 Téléphone</strong>
-                                <p>+33 (0)1 23 45 67 89</p>
-                            </div>
-                            <div class="contact-item">
-                                <strong data-translate="contact.info.address">📍 Adresse</strong>
-                                <p data-translate="contact.info.address.text">Stellenbosch, Afrique du Sud<br>
-                                Bureau Europe : Paris, France</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>Conspiracy Of Two</h3>
-                    <p data-translate="footer.description">L'excellence viticole franco-néerlandaise en Afrique du Sud</p>
-                </div>
-                <div class="footer-links">
-                    <h4 data-translate="footer.links">Liens Rapides</h4>
-                    <ul>
-                        <li><a href="#about" data-translate="nav.about">À Propos</a></li>
-                        <li><a href="#team" data-translate="nav.team">Équipe</a></li>
-                        <li><a href="#wines" data-translate="nav.wines">Nos Vins</a></li>
-                        <li><a href="#story" data-translate="nav.story">Notre Histoire</a></li>
-                        <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h4 data-translate="footer.social">Suivez-Nous</h4>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="LinkedIn">💼</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p data-translate="footer.copyright">&copy; 2024 Conspiracy Of Two. Tous droits réservés. | L'abus d'alcool est dangereux pour la santé, à consommer avec modération.</p>
+            <div class="hero-text-section">
+                <h1 class="main-title" data-translate="hero.title">CONSPIRACY<br>OF TWO</h1>
+                <p class="hero-description" data-translate="hero.description.p1">
+                    Conspiracy of Two est née de la rencontre entre deux passionnés 
+                    issus de cultures différentes, un Français et une Néerlandaise, tous 
+                    deux unis par leur amour du vin et le désir de créer quelque chose de 
+                    rare.
+                </p>
+                <p class="hero-description" data-translate="hero.description.p2">
+                    Notre ambition est de produire en Afrique du Sud des vins 
+                    d'exception, en mariant le savoir-faire acquis au fil de nos 
+                    nombreuses expériences aux terroirs singuliers du Swartland, une 
+                    région viticole d'une richesse remarquable.
+                </p>
+                <p class="hero-description hero-availability" data-translate="hero.availability">
+                    Les vins seront disponibles au printemps 2027
+                </p>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Founders Section -->
+    <section class="founders-section">
+        <div class="founders-container">
+            <!-- Rianne Block (Left) - Photo top, Text bottom -->
+            <div class="founder-block rianne-block">
+                <div class="founder-photo">
+                    <img src="pictures/picture_section_3_rianne.jpg" alt="Rianne Ogink">
+                </div>
+                <div class="founder-info">
+                    <h2 class="founder-name" data-translate="founders.rianne.name">RIANNE OGINK</h2>
+                    <p class="founder-bio" data-translate="founders.rianne.bio">
+                        Ancienne sommelière au restaurant étoilé Michelin Zoldering à Amsterdam, 
+                        Rianne a parcouru le monde pour explorer les grandes régions viticoles tout 
+                        en obtenant son WSET Diploma (niveau 4). Son parcours l'a menée du 
+                        Château Smith Haut Lafitte et du Château Palmer à Bordeaux jusqu'à 
+                        Damascene en Afrique du Sud, avant de rejoindre le domaine Georges Vernay 
+                        à Condrieu, où elle a travaillé récemment comme assistante œnologue.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Vincent Block (Right) - Text top, Photo bottom -->
+            <div class="founder-block vincent-block">
+                <div class="founder-content">
+                    <h2 class="founder-title" data-translate="founders.vincent.name">VINCENT PONTET</h2>
+                    <p class="founder-text" data-translate="founders.vincent.bio">
+                        Né à Condrieu, au cœur du Rhône, Vincent cumule plus de vingt ans 
+                        d'expérience acquise dans des domaines emblématiques : E. Guigal 
+                        dans le Rhône, Joseph Drouhin en Bourgogne, Giesen en Nouvelle-Zélande, 
+                        Bimbadgen en Australie et Boekenhoutskloof en Afrique du 
+                        Sud. Pour Vincent, le vin est un langage à part entière, un héritage 
+                        millénaire qui raconte l'histoire des hommes, des terroirs et du temps 
+                        qui passe.
+                    </p>
+                </div>
+                <div class="founder-photo">
+                    <img src="pictures/picture_section_3_vincent.jpg" alt="Vincent Pontet">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wines Section -->
+    <section class="wines-section">
+        <div class="wines-background">
+            <img src="pictures/picture_section_4_grapes.jpg" alt="Wine grapes" class="wines-bg-image">
+        </div>
+        <div class="wines-text">
+            <h2 class="wines-title">
+                <span data-translate="wines.chenin">CHENIN BLANC</span><br>
+                <span data-translate="wines.viognier">VIOGNIER</span><br>
+                <span data-translate="wines.syrah">SYRAH</span><br>
+                <span class="wines-location" data-translate="wines.location">SWARTLAND, AFRIQUE DU SUD</span>
+            </h2>
+        </div>
+    </section>
+
+    <!-- Adventure Section -->
+    <section class="adventure-section">
+        <div class="adventure-container">
+            <div class="adventure-content">
+                <h2 class="adventure-title" data-translate="adventure.title">REJOIGNEZ<br>NOTRE<br>AVENTURE</h2>
+                <p class="adventure-subtitle" data-translate="adventure.subtitle">CROWDFUNDING</p>
+                <p class="adventure-text" data-translate="adventure.text.p1">
+                    En janvier 2026, nous rejoindrons le Swartland, en Afrique du Sud, pour sélectionner du Chenin Blanc, du Viognier et de la Syrah auprès de vignerons que nous connaissons depuis de nombreuses années. Ainsi naîtra notre premier millésime, mis en bouteille un an plus tard, puis partagé avec vous au printemps 2027.
+                </p>
+                <p class="adventure-text" data-translate="adventure.text.p2">
+                    Le chemin est long, mais chaque étape compte. Avec votre soutien, Conspiracy of Two deviendra réalité, l'aboutissement d'une passion commune et surtout d'un rêve de gamins.
+                </p>
+            </div>
+            <div class="adventure-image">
+                <img src="pictures/picture_section_5.jpg" alt="Vineyard harvest" class="adventure-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Crowdfunding Section -->
+    <section class="crowdfunding-section">
+        <div class="crowdfunding-header">
+            <h2 class="crowdfunding-title" data-translate="crowdfunding.title">SOUTENEZ NOTRE PROJET</h2>
+            <p class="crowdfunding-intro" data-translate="crowdfunding.intro">Choisissez votre niveau de participation et rejoignez l'aventure Conspiracy of Two</p>
+        </div>
+        
+        <div class="crowdfunding-grid">
+            <!-- Toast from Far -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_toast_from_far.jpg" alt="Toast from far">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.toast.name">Un toast de loin</h3>
+                    <p class="funding-price" data-translate="crowdfunding.toast.price">25€</p>
+                    <p class="funding-description" data-translate="crowdfunding.toast.description">Soutenez notre projet et recevez nos remerciements chaleureux ainsi que des nouvelles régulières de notre aventure.</p>
+                </div>
+            </div>
+
+            <!-- Faites Partie -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_faites_parti.jpeg" alt="Faites partie">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.history.name">Faites partie de l'histoire</h3>
+                    <p class="funding-price" data-translate="crowdfunding.history.price">50€</p>
+                    <p class="funding-description" data-translate="crowdfunding.history.description">Votre nom figurera sur notre mur des contributeurs et vous recevrez un certificat de soutien personnalisé.</p>
+                </div>
+            </div>
+
+            <!-- Wine and Dine -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_wine_and_dine.jpeg" alt="Wine and dine">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.winedine.name">Wine & Dine</h3>
+                    <p class="funding-price" data-translate="crowdfunding.winedine.price">150€</p>
+                    <p class="funding-description" data-translate="crowdfunding.winedine.description">Recevez 2 bouteilles de notre premier millésime et une invitation à notre événement de lancement.</p>
+                </div>
+            </div>
+
+            <!-- Buvez avec nous -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_buvez_avec_nous.jpeg" alt="Buvez avec nous">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.drink.name">Buvez avec nous</h3>
+                    <p class="funding-price" data-translate="crowdfunding.drink.price">300€</p>
+                    <p class="funding-description" data-translate="crowdfunding.drink.description">6 bouteilles de notre sélection, une visite privée du domaine et une dégustation avec Vincent et Rianne.</p>
+                </div>
+            </div>
+
+            <!-- Adoptez un fût -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_adoptez_un_fut.jpeg" alt="Adoptez un fût">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.barrel.name">Adoptez un fût</h3>
+                    <p class="funding-price" data-translate="crowdfunding.barrel.price">1000€</p>
+                    <p class="funding-description" data-translate="crowdfunding.barrel.description">Votre nom sur un fût de chêne, 12 bouteilles personnalisées et une expérience VIP au domaine.</p>
+                </div>
+            </div>
+
+            <!-- Expérience Conspiracy -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_experience_conspiracy.jpeg" alt="Expérience Conspiracy">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.experience.name">L'expérience Conspiracy</h3>
+                    <p class="funding-price" data-translate="crowdfunding.experience.price">2500€</p>
+                    <p class="funding-description" data-translate="crowdfunding.experience.description">Séjour de 3 jours en Afrique du Sud, participation aux vendanges, 24 bouteilles et votre nom sur l'étiquette d'une cuvée spéciale.</p>
+                </div>
+            </div>
+
+            <!-- Tournée privée -->
+            <div class="funding-card">
+                <div class="funding-image">
+                    <img src="pictures/webp/picture_section_6_experience_conspiracy.jpeg" alt="Tournée privée">
+                </div>
+                <div class="funding-content">
+                    <h3 class="funding-name" data-translate="crowdfunding.tour.name">Tournée privée</h3>
+                    <p class="funding-price" data-translate="crowdfunding.tour.price">5000€</p>
+                    <p class="funding-description" data-translate="crowdfunding.tour.description">Passez 5 jours en tournée privée avec nous. Nous découvrirons les régions viticoles d'Afrique du Sud pour explorer les cépages à travers différentes dégustations et visites. L'hôtel, le transport et les déjeuners sont inclus (les billets d'avion ne sont pas compris).</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="crowdfunding-footer">
+            <div class="crowdfunding-disclaimer">
+                <h4 data-translate="crowdfunding.disclaimer.title">DISCLAIMER</h4>
+                <p data-translate="crowdfunding.disclaimer.wines">*Les vins seront disponibles au printemps 2027</p>
+                <p data-translate="crowdfunding.disclaimer.shipping">*Les frais de transport ne sont pas inclus</p>
+            </div>
+            <button class="crowdfunding-contact" data-translate="crowdfunding.contact.button">Contactez-nous</button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-background">
+            <img src="pictures/picture_section_7.jpg" alt="Vineyard grapes" class="contact-bg-image">
+            <div class="contact-overlay"></div>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="contact-title" data-translate="contact.title">NOUS<br>CONTACTER</h2>
+            </div>
+
+            <div class="contact-main">
+                <div class="contact-info-section">
+                    <div class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <span class="contact-text" data-translate="contact.email">contact@conspiracyoftwo.com</span>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                        <span class="contact-text" data-translate="contact.instagram">conspiracy.of.two</span>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div class="contact-address">
+                            <span class="contact-text" data-translate="contact.address.line1">Riebeek Valley Wine Co</span>
+                            <span class="contact-text" data-translate="contact.address.line2">Swartland, South Africa</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name" data-translate="contact.form.name">Nom:</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" data-translate="contact.form.phone">Numéro de téléphone:</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group full-width">
+                        <label for="message" data-translate="contact.form.message">Votre message:</label>
+                        <textarea id="message" name="message" class="form-textarea" rows="6" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit" data-translate="contact.form.submit">ENVOYER</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <script src="translations.js"></script>
     <script src="script.js"></script>
-    <script src="color-tester.js"></script>
 </body>
 </html>

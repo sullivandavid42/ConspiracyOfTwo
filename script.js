@@ -219,12 +219,16 @@ document.addEventListener('DOMContentLoaded', animateOnScroll);
 // Header scroll effect
 window.addEventListener('scroll', function() {
     const header = document.querySelector('.header');
+    const brandTitle = document.querySelector('.nav-brand h1');
+    
     if (window.scrollY > 100) {
         header.style.background = 'rgba(255, 255, 255, 0.95)';
         header.style.backdropFilter = 'blur(10px)';
+        brandTitle.style.color = '#000000'; // Noir sur fond blanc
     } else {
-        header.style.background = '#FFFFFF';
+        header.style.background = '#000000';
         header.style.backdropFilter = 'none';
+        brandTitle.style.color = '#FFFFFF'; // Blanc sur fond noir
     }
 });
 
