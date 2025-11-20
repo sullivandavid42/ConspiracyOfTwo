@@ -4,10 +4,6 @@ Allow: /
 # Sitemap
 Sitemap: https://conspiracyoftwo.com/sitemap.xml
 
-# Disallow temporary files
-Disallow: /color-tester.js
-Disallow: /version_*.html
-
 # Allow important resources
 Allow: /styles.css
 Allow: /script.js

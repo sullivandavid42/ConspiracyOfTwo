@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 body {
     font-family: 'Avenir Next', 'Avenir', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background-color: #000000;
@@ -545,7 +550,7 @@ h1, h2, h3, h4, h5, h6,
 .funding-price {
     font-size: 2rem;
     font-weight: 900;
-    color: #d4af37;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
@@ -779,13 +784,15 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .hero-content {
-        padding: 3rem 2rem;
+        padding: 3rem 1.5rem;
     }
     
     .hero-names {
         font-size: 2rem;
         letter-spacing: 0.05em;
-        max-width: 90%;
+        max-width: 100%;
+        white-space: normal;
+        line-height: 1.1;
     }
     
     .language-selector {
@@ -806,7 +813,7 @@ h1, h2, h3, h4, h5, h6,
     .main-hero-container {
         grid-template-columns: 1fr;
         gap: 2rem;
-        padding: 0 2rem;
+        padding: 0 1.5rem;
     }
     
     .couple-photo {
@@ -817,7 +824,7 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .hero-text-section {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
     }
     
     .main-title {
@@ -829,8 +836,15 @@ h1, h2, h3, h4, h5, h6,
         font-size: 0.95rem;
     }
     
+    .founders-section {
+        padding: 2rem 0;
+        height: auto;
+        min-height: auto;
+    }
+    
     .founders-container {
         grid-template-columns: 1fr;
+        height: auto;
     }
     
     .founder-block {
@@ -839,10 +853,19 @@ h1, h2, h3, h4, h5, h6,
         min-height: auto;
     }
     
+    .founder-photo {
+        padding: 1.5rem;
+    }
+    
+    .founder-info,
+    .founder-content {
+        padding: 1rem 1.5rem 2rem 1.5rem;
+    }
+    
     .founder-image-wrapper {
         grid-column: 1;
         grid-row: 1;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
     .founder-image {
@@ -853,13 +876,13 @@ h1, h2, h3, h4, h5, h6,
     .founder-content {
         grid-column: 1;
         grid-row: 2;
-        padding: 2rem;
+        padding: 1rem 1.5rem 2rem 1.5rem;
     }
     
     .founder-landscape {
         grid-column: 1;
         grid-row: 3;
-        padding: 0 2rem 2rem 2rem;
+        padding: 0 1.5rem 2rem 1.5rem;
     }
     
     .landscape-image {
@@ -867,7 +890,7 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .rianne-block .founder-image-wrapper {
-        padding: 2rem;
+        padding: 1.5rem;
     }
     
     .rianne-block .founder-image {
@@ -876,7 +899,7 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .rianne-block .founder-content {
-        padding: 2rem;
+        padding: 1rem 1.5rem 2rem 1.5rem;
     }
     
     .adventure-container {
@@ -885,15 +908,39 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .adventure-content {
-        padding: 3rem 2rem;
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .adventure-title {
+        font-size: 2.5rem;
+        line-height: 1.1;
+    }
+    
+    .adventure-subtitle {
+        font-size: 1rem;
+    }
+    
+    .adventure-text {
+        font-size: 0.95rem;
     }
     
     .adventure-photo {
         height: 400px;
     }
     
-    .contact-content {
+    .contact-container {
+        padding: 2rem 1.5rem;
+    }
+    
+    .contact-main {
         grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 1.5rem;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
     
     .gallery-grid {
@@ -902,9 +949,30 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .section-title,
-    .adventure-title,
     .contact-title {
         font-size: 2.5rem;
+    }
+    
+    .crowdfunding-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 0 1.5rem;
+    }
+    
+    .funding-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .funding-name {
+        font-size: 1.3rem;
+    }
+    
+    .funding-price {
+        font-size: 1.5rem;
+    }
+    
+    .funding-description {
+        font-size: 0.95rem;
     }
     
     .wines-title {
@@ -919,12 +987,14 @@ h1, h2, h3, h4, h5, h6,
     }
     
     .hero-content {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1rem;
     }
     
     .hero-names {
-        font-size: 2rem;
-        max-width: 90%;
+        font-size: 1.8rem;
+        max-width: 100%;
+        white-space: normal;
+        line-height: 1.1;
     }
     
     .main-title {
@@ -935,7 +1005,44 @@ h1, h2, h3, h4, h5, h6,
         font-size: 1rem;
     }
     
+    .main-hero-container {
+        padding: 0 1rem;
+    }
+    
     .hero-text-section {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1rem;
+    }
+    
+    .adventure-content {
+        padding: 2rem 1rem;
+    }
+    
+    .contact-container {
+        padding: 2rem 1rem;
+    }
+    
+    .contact-main {
+        padding: 1.5rem 1rem;
+        gap: 1.5rem;
+    }
+    
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    
+    .crowdfunding-grid {
+        padding: 0 1rem;
+    }
+    
+    .section-navigator {
+        bottom: 1rem;
+        right: 1rem;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .section-navigator svg {
+        width: 20px;
+        height: 20px;
     }
 }

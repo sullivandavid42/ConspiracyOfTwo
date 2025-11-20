@@ -5,7 +5,7 @@
     <!-- Page principale -->
     <url>
         <loc>https://conspiracyoftwo.com/</loc>
-        <lastmod>2024-10-16</lastmod>
+        <lastmod>2024-11-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://conspiracyoftwo.com/?lang=fr"/>
@@ -13,42 +13,42 @@
         <xhtml:link rel="alternate" hreflang="nl" href="https://conspiracyoftwo.com/?lang=nl"/>
     </url>
     
-    <!-- Section À propos -->
+    <!-- Section Fondateurs -->
     <url>
-        <loc>https://conspiracyoftwo.com/#about</loc>
-        <lastmod>2024-10-16</lastmod>
+        <loc>https://conspiracyoftwo.com/#founders</loc>
+        <lastmod>2024-11-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Section Équipe -->
-    <url>
-        <loc>https://conspiracyoftwo.com/#team</loc>
-        <lastmod>2024-10-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     
     <!-- Section Vins -->
     <url>
         <loc>https://conspiracyoftwo.com/#wines</loc>
-        <lastmod>2024-10-16</lastmod>
+        <lastmod>2024-11-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     
-    <!-- Section Histoire -->
+    <!-- Section Aventure -->
     <url>
-        <loc>https://conspiracyoftwo.com/#story</loc>
-        <lastmod>2024-10-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <loc>https://conspiracyoftwo.com/#adventure</loc>
+        <lastmod>2024-11-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Section Crowdfunding -->
+    <url>
+        <loc>https://conspiracyoftwo.com/#crowdfunding</loc>
+        <lastmod>2024-11-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.95</priority>
     </url>
     
     <!-- Section Contact -->
     <url>
         <loc>https://conspiracyoftwo.com/#contact</loc>
-        <lastmod>2024-10-16</lastmod>
+        <lastmod>2024-11-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
