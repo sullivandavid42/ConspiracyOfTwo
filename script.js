@@ -464,3 +464,51 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
+// Funding cards click to scroll to contact form
+document.addEventListener('DOMContentLoaded', function() {
+    const fundingCards = document.querySelectorAll('.funding-card');
+    const contactSection = document.getElementById('contact');
+    const messageTextarea = document.getElementById('message');
+    
+    if (fundingCards.length > 0 && contactSection && messageTextarea) {
+        fundingCards.forEach(card => {
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', function() {
+                // Get the pack name from the card
+                const packNameElement = card.querySelector('.funding-name');
+                if (packNameElement) {
+                    const packName = packNameElement.textContent.trim();
+                    
+                    // Get current language
+                    const currentLang = localStorage.getItem('conspiracyoftwo-language') || 'fr';
+                    
+                    // Set message based on language
+                    let message = '';
+                    if (currentLang === 'fr') {
+                        message = `Je suis intéressé par le pack "${packName}".\n\n`;
+                    } else if (currentLang === 'en') {
+                        message = `I am interested in the "${packName}" package.\n\n`;
+                    } else if (currentLang === 'nl') {
+                        message = `Ik ben geïnteresseerd in het "${packName}" pakket.\n\n`;
+                    }
+                    
+                    messageTextarea.value = message;
+                }
+                
+                // Scroll to contact section
+                contactSection.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+                
+                // Focus on the message textarea after scroll
+                setTimeout(() => {
+                    messageTextarea.focus();
+                    // Move cursor to end of text
+                    messageTextarea.setSelectionRange(messageTextarea.value.length, messageTextarea.value.length);
+                }, 800);
+            });
+        });
+    }
+});
