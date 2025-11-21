@@ -39,7 +39,7 @@ const translations = {
         
         'crowdfunding.history.name': 'PRÉCOMMANDEZ VOS BOUTEILLES',
         'crowdfunding.history.price': 'Plusieurs options',
-        'crowdfunding.history.description': '€ 120 - Mix carton 3 bouteilles<br>€ 240 - Mix carton 6 bouteilles<br>€ 370 - Mix carton 12 bouteilles <br> <br> Vous souhaitez précommander en plus grande quantités ? N\'hésitez pas à nous contacter pour plus de détails.',
+        'crowdfunding.history.description': 'Mix carton 3 bouteilles - € 120<br>Mix carton 6 bouteilles - € 240<br>Mix carton 12 bouteilles - € 370 <br> <br> Vous souhaitez précommander en plus grande quantités ? N\'hésitez pas à nous contacter pour plus de détails.',
         
         'crowdfunding.winedine.name': 'UN DÎNER PAS COMME LES AUTRES',
         'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu ou en Afrique du Sud, autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives.',
@@ -109,7 +109,7 @@ const translations = {
         
         'crowdfunding.history.name': 'PRE-ORDER YOUR BOTTLES',
         'crowdfunding.history.price': 'Multiple options',
-        'crowdfunding.history.description': '€ 120 - Mixed case 3 bottles<br>€ 240 - Mixed case 6 bottles<br>€ 370 - Mixed case 12 bottles <br> <br> Would you like to pre-order in larger quantities? Feel free to contact us for more details.',
+        'crowdfunding.history.description': 'Mixed case 3 bottles - € 120<br>Mixed case 6 bottles - € 240<br>Mixed case 12 bottles - € 370 <br> <br> Would you like to pre-order in larger quantities? Feel free to contact us for more details.',
         
         'crowdfunding.winedine.name': 'A DINNER LIKE NO OTHER',
         'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu or South Africa, featuring a selection of wines paired with each course. An intimate moment, limited to six guests.',
@@ -179,7 +179,7 @@ const translations = {
         
         'crowdfunding.history.name': 'BESTEL JE FLESSEN VOORAF',
         'crowdfunding.history.price': 'Meerdere opties',
-        'crowdfunding.history.description': '€ 120 - Gemengde doos 3 flessen<br>€ 240 - Gemengde doos 6 flessen<br>€ 370 - Gemengde doos 12 flessen <br> <br> Wil je in grotere hoeveelheden vooraf bestellen? Neem gerust contact met ons op voor meer informatie.',
+        'crowdfunding.history.description': 'Gemengde doos 3 flessen - € 120<br>Gemengde doos 6 flessen - € 240<br>Gemengde doos 12 flessen - € 370 <br> <br> Wil je in grotere hoeveelheden vooraf bestellen? Neem gerust contact met ons op voor meer informatie.',
         
         'crowdfunding.winedine.name': 'EEN DINER ZOALS GEEN ANDER',
         'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu of Zuid-Afrika, met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten.',
