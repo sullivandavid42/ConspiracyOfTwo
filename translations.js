@@ -42,16 +42,16 @@ const translations = {
         'crowdfunding.history.description': '€ 120 - Mix carton 3 bouteilles<br>€ 240 - Mix carton 6 bouteilles<br>€ 370 - Mix carton 12 bouteilles <br> <br> Vous souhaitez précommander en plus grande quantités ? N\'hésitez pas à nous contacter pour plus de détails.',
         
         'crowdfunding.winedine.name': 'UN DÎNER PAS COMME LES AUTRES',
-        'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu ou en Afrique du Sud, autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives. <br> <br> € 200 p.p.',
+        'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu ou en Afrique du Sud, autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives.',
         
         'crowdfunding.barrel.name': 'TOUR PRIVÉ CONDRIEU & CÔTE ROTIE',
-        'crowdfunding.barrel.description': 'Passez une journée avec nous à Condrieu, pour découvrir les vins de la Vallée du Rhône Nord. Déjeuner et transport depuis Lyon inclus. <br> <br> € 450 p.p.',
+        'crowdfunding.barrel.description': 'Passez une journée avec nous à Condrieu, pour découvrir les vins de la Vallée du Rhône Nord. Déjeuner et transport depuis Lyon inclus.',
         
         'crowdfunding.tour.name': 'TOUR PRIVÉ AFRIQUE DU SUD',
-        'crowdfunding.tour.description': 'Passez 5 jours en visite privée à nos côtés, à la découverte des régions viticoles d\'Afrique du Sud. Entre dégustations, rencontres de vignerons, paysages spéctaculaires et moments de partage, vous vivrez une immersion complète dans notre univers. Hébergement, transport et déjeuners inclus (hors vols). <br> <br> € 5000 p.p.',
+        'crowdfunding.tour.description': 'Passez 5 jours en visite privée à nos côtés, à la découverte des régions viticoles d\'Afrique du Sud. Entre dégustations, rencontres de vignerons, paysages spéctaculaires et moments de partage, vous vivrez une immersion complète dans notre univers. Hébergement, transport et déjeuners inclus (hors vols).',
         
         'crowdfunding.experience.name': 'ACHETEZ VOTRE PROPRE BARRIQUE',
-        'crowdfunding.experience.description': 'Achetez votre fût (environ 250 bouteilles de vin au choix) et recevez vos bouteilles dans un coffret spécialisé. <br> <br> € 6900 p.p.',
+        'crowdfunding.experience.description': 'Achetez votre fût (environ 250 bouteilles de vin au choix) et recevez vos bouteilles dans un coffret spécialisé.',
         
         'crowdfunding.disclaimer.title': 'DISCLAIMER',
         'crowdfunding.disclaimer.wines': '*Les vins seront disponibles au printemps 2027',
@@ -112,16 +112,16 @@ const translations = {
         'crowdfunding.history.description': '€ 120 - Mixed case 3 bottles<br>€ 240 - Mixed case 6 bottles<br>€ 370 - Mixed case 12 bottles <br> <br> Would you like to pre-order in larger quantities? Feel free to contact us for more details.',
         
         'crowdfunding.winedine.name': 'A DINNER LIKE NO OTHER',
-        'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu or South Africa, featuring a selection of wines paired with each course. An intimate moment, limited to six guests. <br> <br> € 200 p.p.',
+        'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu or South Africa, featuring a selection of wines paired with each course. An intimate moment, limited to six guests.',
         
         'crowdfunding.barrel.name': 'PRIVATE TOUR CONDRIEU & CÔTE RÔTIE',
-        'crowdfunding.barrel.description': 'Spend a day with us in Condrieu, discovering the wines of the Northern Rhône Valley. Lunch and transport from Lyon included. <br> <br> € 450 p.p.',
+        'crowdfunding.barrel.description': 'Spend a day with us in Condrieu, discovering the wines of the Northern Rhône Valley. Lunch and transport from Lyon included.',
         
         'crowdfunding.tour.name': 'PRIVATE TOUR SOUTH AFRICA',
-        'crowdfunding.tour.description': 'Spend 5 days on a private visit by our side, discovering the wine regions of South Africa. Between tastings, meetings with winemakers, spectacular landscapes and moments of sharing, you will experience a complete immersion in our universe. Accommodation, transport and lunches included (flights not included). <br> <br> € 5000 p.p.',
+        'crowdfunding.tour.description': 'Spend 5 days on a private visit by our side, discovering the wine regions of South Africa. Between tastings, meetings with winemakers, spectacular landscapes and moments of sharing, you will experience a complete immersion in our universe. Accommodation, transport and lunches included (flights not included).',
         
         'crowdfunding.experience.name': 'BUY YOUR OWN BARREL',
-        'crowdfunding.experience.description': 'Buy your barrel (approximately 250 bottles of wine of your choice) and receive your bottles in a specialized case. <br> <br> € 6900 p.p.',
+        'crowdfunding.experience.description': 'Buy your barrel (approximately 250 bottles of wine of your choice) and receive your bottles in a specialized case.',
         
         'crowdfunding.disclaimer.title': 'DISCLAIMER',
         'crowdfunding.disclaimer.wines': '*Wines will be available in spring 2027',
@@ -182,16 +182,16 @@ const translations = {
         'crowdfunding.history.description': '€ 120 - Gemengde doos 3 flessen<br>€ 240 - Gemengde doos 6 flessen<br>€ 370 - Gemengde doos 12 flessen <br> <br> Wil je in grotere hoeveelheden vooraf bestellen? Neem gerust contact met ons op voor meer informatie.',
         
         'crowdfunding.winedine.name': 'EEN DINER ZOALS GEEN ANDER',
-        'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu of Zuid-Afrika, met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten. <br> <br> € 200 p.p.',
+        'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu of Zuid-Afrika, met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten.',
         
         'crowdfunding.barrel.name': 'PRIVÉTOUR CONDRIEU & CÔTE RÔTIE',
-        'crowdfunding.barrel.description': 'Breng een dag door met ons in Condrieu en ontdek de wijnen van de noordelijke Rhônevallei. Lunch en vervoer vanuit Lyon inbegrepen. <br> <br> € 450 p.p.',
+        'crowdfunding.barrel.description': 'Breng een dag door met ons in Condrieu en ontdek de wijnen van de noordelijke Rhônevallei. Lunch en vervoer vanuit Lyon inbegrepen.',
         
         'crowdfunding.tour.name': 'PRIVÉTOUR ZUID-AFRIKA',
-        'crowdfunding.tour.description': 'Breng 5 dagen door op een privébezoek aan onze zijde en ontdek de wijnregio\'s van Zuid-Afrika. Tussen proeverijen, ontmoetingen met wijnmakers, spectaculaire landschappen en momenten van delen, beleef je een complete onderdompeling in ons universum. Accommodatie, vervoer en lunches inbegrepen (vluchten niet inbegrepen). <br> <br> € 5000 p.p.',
+        'crowdfunding.tour.description': 'Breng 5 dagen door op een privébezoek aan onze zijde en ontdek de wijnregio\'s van Zuid-Afrika. Tussen proeverijen, ontmoetingen met wijnmakers, spectaculaire landschappen en momenten van delen, beleef je een complete onderdompeling in ons universum. Accommodatie, vervoer en lunches inbegrepen (vluchten niet inbegrepen).',
         
         'crowdfunding.experience.name': 'KOOP JE EIGEN VAT',
-        'crowdfunding.experience.description': 'Koop je vat (ongeveer 250 flessen wijn naar keuze) en ontvang je flessen in een gespecialiseerde kist. <br> <br> € 6900 p.p.',
+        'crowdfunding.experience.description': 'Koop je vat (ongeveer 250 flessen wijn naar keuze) en ontvang je flessen in een gespecialiseerde kist.',
         
         'crowdfunding.disclaimer.title': 'DISCLAIMER',
         'crowdfunding.disclaimer.wines': '*Wijnen zullen beschikbaar zijn in het voorjaar van 2027',

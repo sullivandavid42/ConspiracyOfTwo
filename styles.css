@@ -484,7 +484,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Crowdfunding Section */
 .crowdfunding-section {
-    background-color: #0a0a0a;
+    background-color: #1a1a1a;
     padding: 6rem 3rem;
 }
 
@@ -791,6 +791,188 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Responsive Design */
+
+/* Small Desktop Screens (MacBook Air, etc.) */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    /* Hero Section with Grapes */
+    .hero-grapes {
+        height: 80vh;
+        min-height: 600px;
+    }
+    
+    .hero-names {
+        font-size: clamp(2.5rem, 5vw, 3.5rem);
+        line-height: 1.1;
+    }
+    
+    /* Main Hero Section */
+    .main-hero {
+        min-height: 90vh;
+        padding: 2rem 0;
+    }
+    
+    .main-title {
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 0.9;
+        margin-bottom: 2rem;
+    }
+    
+    .hero-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+    
+    .main-hero-container {
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+    
+    .hero-text-section {
+        padding: 2rem;
+    }
+    
+    .couple-photo {
+        max-width: 350px;
+        height: auto;
+    }
+    
+    /* Founders Section */
+    .founders-section {
+        min-height: auto;
+        padding: 3rem 2rem;
+    }
+    
+    .founder-block {
+        min-height: auto;
+        padding: 3rem 2rem;
+    }
+    
+    .founder-name {
+        font-size: clamp(2rem, 4vw, 3rem);
+        margin-bottom: 1.5rem;
+        line-height: 1.2;
+    }
+    
+    .founder-bio {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .founder-photo,
+    .founder-image {
+        max-width: 100%;
+    }
+    
+    .founder-photo img,
+    .founder-image img {
+        max-height: 400px;
+        object-fit: contain;
+    }
+    
+    /* Wines Section */
+    .wines-section {
+        height: 70vh;
+        min-height: 500px;
+    }
+    
+    .wines-title {
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+    }
+    
+    /* Adventure Section */
+    .adventure-section {
+        min-height: auto;
+        padding: 3rem 2rem;
+    }
+    
+    .adventure-title {
+        font-size: clamp(3rem, 6vw, 5rem);
+        line-height: 1;
+        margin-bottom: 2rem;
+    }
+    
+    .adventure-subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .adventure-text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+    
+    .adventure-content {
+        padding: 2rem;
+        max-width: 90%;
+    }
+    
+    /* Crowdfunding Section */
+    .crowdfunding-section {
+        padding: 3rem 2rem;
+    }
+    
+    .crowdfunding-title {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        margin-bottom: 2rem;
+    }
+    
+    .crowdfunding-intro {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+    .crowdfunding-grid {
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .funding-name {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .funding-description {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+    
+    /* Contact Section */
+    .contact-section {
+        padding: 3rem 2rem;
+    }
+    
+    .contact-title {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+        margin-bottom: 2rem;
+    }
+    
+    .contact-container {
+        padding: 2rem;
+    }
+    
+    .contact-main {
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+    .form-group label {
+        font-size: 0.95rem;
+    }
+    
+    .form-input,
+    .form-textarea {
+        font-size: 0.95rem;
+        padding: 0.8rem;
+    }
+    
+    .form-submit {
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
+    }
+}
+
 /* Mobile Portrait - Crowdfunding Accordion */
 .funding-toggle-btn {
     display: none;
