@@ -33,12 +33,15 @@ const translations = {
         'crowdfunding.intro': 'Choisissez votre niveau de participation et rejoignez l\'aventure Conspiracy of Two',
         
         'crowdfunding.toast.name': 'DONATION LIBRE',
+        'crowdfunding.toast.price': 'Libre',
         'crowdfunding.toast.description': 'Chaque euro compte. Votre don libre soutient la naissance de notre domaine en Afrique du Sud, et nous aide à construire une aventure authentique et durable. <br> <br> Votre nom sera inscrit sur l\'un de nos fûts. Vous recevrez des mises à jour exclusives et des images des coulisses par e-mail.',
+        'crowdfunding.see_more': 'Voir +',
         
         'crowdfunding.history.name': 'PRÉCOMMANDEZ VOS BOUTEILLES',
+        'crowdfunding.history.price': 'Plusieurs options',
         'crowdfunding.history.description': '€ 120 - Mix carton 3 bouteilles<br>€ 240 - Mix carton 6 bouteilles<br>€ 370 - Mix carton 12 bouteilles <br> <br> Vous souhaitez précommander en plus grande quantités ? N\'hésitez pas à nous contacter pour plus de détails.',
         
-        'crowdfunding.winedine.name': 'DÎNER ENSEMBLE',
+        'crowdfunding.winedine.name': 'UN DÎNER PAS COMME LES AUTRES',
         'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu ou en Afrique du Sud, autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives. <br> <br> € 200 p.p.',
         
         'crowdfunding.barrel.name': 'TOUR PRIVÉ CONDRIEU & CÔTE ROTIE',
@@ -100,12 +103,15 @@ const translations = {
         'crowdfunding.intro': 'Choose your level of participation and join the Conspiracy of Two adventure',
         
         'crowdfunding.toast.name': 'FREE DONATION',
+        'crowdfunding.toast.price': 'Free',
         'crowdfunding.toast.description': 'Every euro counts. Your free donation supports the birth of our winery in South Africa, and helps us build an authentic and sustainable adventure. <br> <br> Your name will be inscribed on one of our barrels. You will receive exclusive updates and behind-the-scenes images by email.',
+        'crowdfunding.see_more': 'See more',
         
         'crowdfunding.history.name': 'PRE-ORDER YOUR BOTTLES',
+        'crowdfunding.history.price': 'Multiple options',
         'crowdfunding.history.description': '€ 120 - Mixed case 3 bottles<br>€ 240 - Mixed case 6 bottles<br>€ 370 - Mixed case 12 bottles <br> <br> Would you like to pre-order in larger quantities? Feel free to contact us for more details.',
         
-        'crowdfunding.winedine.name': 'DINE TOGETHER',
+        'crowdfunding.winedine.name': 'A DINNER LIKE NO OTHER',
         'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu or South Africa, featuring a selection of wines paired with each course. An intimate moment, limited to six guests. <br> <br> € 200 p.p.',
         
         'crowdfunding.barrel.name': 'PRIVATE TOUR CONDRIEU & CÔTE RÔTIE',
@@ -167,12 +173,15 @@ const translations = {
         'crowdfunding.intro': 'Kies je niveau van deelname en sluit je aan bij het Conspiracy of Two avontuur',
         
         'crowdfunding.toast.name': 'VRIJE DONATIE',
+        'crowdfunding.toast.price': 'Vrij',
         'crowdfunding.toast.description': 'Elke euro telt. Je vrije donatie ondersteunt de geboorte van ons wijndomein in Zuid-Afrika en helpt ons een authentiek en duurzaam avontuur op te bouwen. <br> <br> Je naam wordt ingeschreven op een van onze vaten. Je ontvangt exclusieve updates en beelden achter de schermen per e-mail.',
+        'crowdfunding.see_more': 'Meer zien',
         
         'crowdfunding.history.name': 'BESTEL JE FLESSEN VOORAF',
+        'crowdfunding.history.price': 'Meerdere opties',
         'crowdfunding.history.description': '€ 120 - Gemengde doos 3 flessen<br>€ 240 - Gemengde doos 6 flessen<br>€ 370 - Gemengde doos 12 flessen <br> <br> Wil je in grotere hoeveelheden vooraf bestellen? Neem gerust contact met ons op voor meer informatie.',
         
-        'crowdfunding.winedine.name': 'SAMEN DINEREN',
+        'crowdfunding.winedine.name': 'EEN DINER ZOALS GEEN ANDER',
         'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu of Zuid-Afrika, met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten. <br> <br> € 200 p.p.',
         
         'crowdfunding.barrel.name': 'PRIVÉTOUR CONDRIEU & CÔTE RÔTIE',

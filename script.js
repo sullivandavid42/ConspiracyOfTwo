@@ -465,16 +465,50 @@ style.textContent = `
 `;
 document.head.appendChild(style);
 
-// Funding cards click to scroll to contact form
 document.addEventListener('DOMContentLoaded', function() {
+    // Funding toggle buttons for mobile
+    const fundingToggleBtns = document.querySelectorAll('.funding-toggle-btn');
+    
+    fundingToggleBtns.forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.stopPropagation(); // Prevent card click
+            const card = this.closest('.funding-card');
+            card.classList.toggle('expanded');
+            
+            // Update button text
+            const currentLang = localStorage.getItem('conspiracyoftwo-language') || 'fr';
+            let seeMoreText = 'Voir +';
+            let seeLessText = 'Voir -';
+            
+            if (currentLang === 'en') {
+                seeMoreText = 'See more';
+                seeLessText = 'See less';
+            } else if (currentLang === 'nl') {
+                seeMoreText = 'Meer zien';
+                seeLessText = 'Minder zien';
+            }
+            
+            if (card.classList.contains('expanded')) {
+                this.textContent = seeLessText;
+            } else {
+                this.textContent = seeMoreText;
+            }
+        });
+    });
+
+    // Funding cards click to scroll to contact form
     const fundingCards = document.querySelectorAll('.funding-card');
     const contactSection = document.getElementById('contact');
     const messageTextarea = document.getElementById('message');
-    
+        
     if (fundingCards.length > 0 && contactSection && messageTextarea) {
         fundingCards.forEach(card => {
             card.style.cursor = 'pointer';
-            card.addEventListener('click', function() {
+            card.addEventListener('click', function(e) {
+                // Don't scroll if clicking on toggle button
+                if (e.target.classList.contains('funding-toggle-btn')) {
+                    return;
+                }
                 // Get the pack name from the card
                 const packNameElement = card.querySelector('.funding-name');
                 if (packNameElement) {
