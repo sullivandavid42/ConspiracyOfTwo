@@ -545,4 +545,58 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    // Crowdfunding contact button scroll to contact section
+    const crowdfundingContactBtn = document.querySelector('.crowdfunding-contact');
+    
+    if (crowdfundingContactBtn) {
+        crowdfundingContactBtn.addEventListener('click', function() {
+            const contactSectionTarget = document.getElementById('contact');
+            if (contactSectionTarget) {
+                contactSectionTarget.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    }
+
+    // Newsletter form submission
+    const newsletterForm = document.getElementById('newsletterForm');
+    const newsletterMessage = document.getElementById('newsletterMessage');
+    
+    if (newsletterForm) {
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const emailInput = document.getElementById('newsletterEmail');
+            const email = emailInput.value.trim();
+            
+            // Simple email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            
+            if (!emailRegex.test(email)) {
+                newsletterMessage.textContent = t('newsletter.error');
+                newsletterMessage.className = 'newsletter-message error';
+                return;
+            }
+            
+            // Here you would normally send the email to your backend/newsletter service
+            // For now, we'll just show a success message
+            console.log('Newsletter subscription:', email);
+            
+            // Show success message
+            newsletterMessage.textContent = t('newsletter.success');
+            newsletterMessage.className = 'newsletter-message success';
+            
+            // Clear the input
+            emailInput.value = '';
+            
+            // Clear message after 5 seconds
+            setTimeout(() => {
+                newsletterMessage.textContent = '';
+                newsletterMessage.className = 'newsletter-message';
+            }, 5000);
+        });
+    }
 });

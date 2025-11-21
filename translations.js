@@ -7,7 +7,7 @@ const translations = {
         // Hero Section 2
         'hero.title': 'CONSPIRACY<br>OF TWO',
         'hero.description.p1': 'Conspiracy of Two est née de la rencontre entre deux passionnés issus de cultures différentes, un Français et une Néerlandaise, tous deux unis par leur amour du vin et le désir de créer quelque chose de rare.',
-        'hero.description.p2': 'Notre ambition est de produire en Afrique du Sud des vins d\'exception, en mariant le savoir-faire acquis au fil de nos nombreuses expériences aux terroirs singuliers du Swartland, une région viticole d\'une richesse remarquable.',
+        'hero.description.p2': 'Notre objectif est de produire des vins d\'exception en Afrique du Sud. Au fil des années, nous avons acquis de nombreuses compétences que nous associons aujourd\'hui aux terroirs uniques du Swartland, une région viticole d\'une richesse remarquable.',
         'hero.availability': 'Les vins seront disponibles au printemps 2027',
         
         // Founders Section
@@ -25,7 +25,7 @@ const translations = {
         // Adventure Section
         'adventure.title': 'REJOIGNEZ<br>NOTRE<br>AVENTURE',
         'adventure.subtitle': 'CROWDFUNDING',
-        'adventure.text.p1': 'En janvier 2026, nous rejoindrons le Swartland, en Afrique du Sud, pour sélectionner du Chenin Blanc, du Viognier et de la Syrah auprès de vignerons que nous connaissons depuis de nombreuses années. Ainsi naîtra notre premier millésime, mis en bouteille un an plus tard, puis partagé avec vous au printemps 2027.',
+        'adventure.text.p1': 'En janvier 2026, nous rejoindrons le Swartland, en Afrique du Sud, pour sélectionner du Chenin Blanc, du Viognier et de la Syrah de vignerons que nous connaissons bien. Ainsi naîtra notre premier millésime, mis en bouteille un an plus tard, puis partagé avec vous au printemps 2027.',
         'adventure.text.p2': 'Le chemin est long, mais chaque étape compte. Avec votre soutien, Conspiracy of Two deviendra réalité, l\'aboutissement d\'une passion commune et surtout d\'un rêve de gamins.',
         
         // Crowdfunding Section
@@ -42,13 +42,13 @@ const translations = {
         'crowdfunding.history.description': 'Mix carton 3 bouteilles - € 120<br>Mix carton 6 bouteilles - € 240<br>Mix carton 12 bouteilles - € 370 <br> <br> Vous souhaitez précommander en plus grande quantités ? N\'hésitez pas à nous contacter pour plus de détails.',
         
         'crowdfunding.winedine.name': 'UN DÎNER PAS COMME LES AUTRES',
-        'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu ou en Afrique du Sud, autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives.',
+        'crowdfunding.winedine.description': 'Partagez un dîner avec nous à Condrieu (mi avr-dec) ou en Afrique du Sud (mi jan-avr), autour d\'une sélection de vins en accord avec chaque plat. Un moment privilégié, limité à six convives.',
         
         'crowdfunding.barrel.name': 'TOUR PRIVÉ CONDRIEU & CÔTE ROTIE',
-        'crowdfunding.barrel.description': 'Passez une journée avec nous à Condrieu, pour découvrir les vins de la Vallée du Rhône Nord. Déjeuner et transport depuis Lyon inclus.',
+        'crowdfunding.barrel.description': 'Passez une journée avec nous à Condrieu (mi avr-dec), pour découvrir les vins de la Vallée du Rhône Nord. Déjeuner et transport depuis Lyon inclus.',
         
         'crowdfunding.tour.name': 'TOUR PRIVÉ AFRIQUE DU SUD',
-        'crowdfunding.tour.description': 'Passez 5 jours en visite privée à nos côtés, à la découverte des régions viticoles d\'Afrique du Sud. Entre dégustations, rencontres de vignerons, paysages spéctaculaires et moments de partage, vous vivrez une immersion complète dans notre univers. Hébergement, transport et déjeuners inclus (hors vols).',
+        'crowdfunding.tour.description': 'Passez 5 jours en visite privée à nos côtés (mi jan-avr), à la découverte des régions viticoles d\'Afrique du Sud. Entre dégustations, rencontres de vignerons, paysages spéctaculaires et moments de partage, vous vivrez une immersion complète dans notre univers. Hébergement, transport et déjeuners inclus (hors vols).',
         
         'crowdfunding.experience.name': 'ACHETEZ VOTRE PROPRE BARRIQUE',
         'crowdfunding.experience.description': 'Achetez votre fût (environ 250 bouteilles de vin au choix) et recevez vos bouteilles dans un coffret spécialisé.',
@@ -57,6 +57,14 @@ const translations = {
         'crowdfunding.disclaimer.wines': '*Les vins seront disponibles au printemps 2027',
         'crowdfunding.disclaimer.shipping': '*Les frais de transport ne sont pas inclus',
         'crowdfunding.contact.button': 'Contactez-nous',
+        
+        // Newsletter
+        'newsletter.title': 'RESTEZ INFORMÉ',
+        'newsletter.description': 'Inscrivez-vous à notre newsletter pour recevoir nos actualités et mises à jour exclusives',
+        'newsletter.placeholder': 'Votre adresse e-mail',
+        'newsletter.button': 'S\'INSCRIRE',
+        'newsletter.success': 'Merci pour votre inscription !',
+        'newsletter.error': 'Une erreur s\'est produite. Veuillez réessayer.',
         
         // Contact Section
         'contact.title': 'NOUS<br>CONTACTER',
@@ -76,15 +84,15 @@ const translations = {
         
         // Hero Section 2
         'hero.title': 'CONSPIRACY<br>OF TWO',
-        'hero.description.p1': 'Conspiracy of Two was born from the meeting of two passionate individuals from different cultures, a Frenchman and a Dutchwoman, both united by their love of wine and the desire to create something rare.',
-        'hero.description.p2': 'Our ambition is to produce exceptional wines in South Africa, combining the expertise acquired through our many experiences with the unique terroirs of Swartland, a wine region of remarkable richness.',
+        'hero.description.p1': 'Conspiracy of Two is born from the meeting between two passionate individuals from different cultures. A French guy and a Dutch girl. We are united by our love for wine and the desire to create something unique.',
+        'hero.description.p2': 'Our goal is to produce exceptional wines in South Africa. Over the years we have acquired many skills which we now combine with the unique terroirs of the Swartland. A wine region of remarkable richness.',
         'hero.availability': 'Wines will be available in spring 2027',
         
         // Founders Section
         'founders.rianne.name': 'RIANNE OGINK',
-        'founders.rianne.bio': 'Former sommelier at Michelin-starred restaurant Zoldering in Amsterdam, Rianne has traveled the world to explore major wine regions while obtaining her WSET Diploma (level 4). Her journey took her from Château Smith Haut Lafitte and Château Palmer in Bordeaux to Damascene in South Africa, before joining the Georges Vernay estate in Condrieu, where she recently worked as assistant winemaker.',
+        'founders.rianne.bio': 'Former sommelier at Michelin-starred restaurant Zoldering in Amsterdam, Rianne has traveled the world to explore major wine regions while obtaining her WSET Diploma (level 4). Her journey took her from Château Smith Haut Lafitte and Château Palmer in Bordeaux to Damascene in South Africa, before joining domaine Georges Vernay in Condrieu, where she recently worked as assistant winemaker.',
         'founders.vincent.name': 'VINCENT PONTET',
-        'founders.vincent.bio': 'Born in Condrieu, in the heart of the Rhône, Vincent has accumulated over twenty years of experience in iconic estates: E. Guigal in the Rhône, Joseph Drouhin in Burgundy, Giesen in New Zealand, Bimbadgen in Australia, and Boekenhoutskloof in South Africa. For Vincent, wine is a language in itself, a millennial heritage that tells the story of people, terroirs, and the passage of time.',
+        'founders.vincent.bio': 'Born in Condrieu, the heart of the Rhône, Vincent has accumulated over twenty years of experience. He worked at iconic estates: E. Guigal in the Rhône, Joseph Drouhin in Burgundy, Giesen in New Zealand, Bimbadgen in Australia, and Boekenhoutskloof in South Africa. For Vincent, wine is a language in itself, a millennial heritage that tells the story of people, terroirs, and the passage of time.',
         
         // Wines Section
         'wines.chenin': 'CHENIN BLANC',
@@ -95,8 +103,8 @@ const translations = {
         // Adventure Section
         'adventure.title': 'JOIN<br>OUR<br>ADVENTURE',
         'adventure.subtitle': 'CROWDFUNDING',
-        'adventure.text.p1': 'In January 2026, we will join Swartland, South Africa, to select Chenin Blanc, Viognier, and Syrah from winemakers we have known for many years. This will give birth to our first vintage, bottled a year later, then shared with you in spring 2027.',
-        'adventure.text.p2': 'The road is long, but every step counts. With your support, Conspiracy of Two will become reality, the culmination of a shared passion and above all a childhood dream.',
+        'adventure.text.p1': 'In January 2026, we will be in the Swartland, South Africa, to select Chenin Blanc, Viognier, and Syrah from winemakers we have known for many years. This will be the base of our first vintage, the wines will be bottled a year later, then shared with you in spring 2027.',
+        'adventure.text.p2': 'The road is long, but every step counts. With your support, Conspiracy of Two will become reality. This project is the culmination of a shared passion and above all a childhood dream.',
         
         // Crowdfunding Section
         'crowdfunding.title': 'SUPPORT OUR PROJECT',
@@ -104,7 +112,7 @@ const translations = {
         
         'crowdfunding.toast.name': 'FREE DONATION',
         'crowdfunding.toast.price': 'Free',
-        'crowdfunding.toast.description': 'Every euro counts. Your free donation supports the birth of our winery in South Africa, and helps us build an authentic and sustainable adventure. <br> <br> Your name will be inscribed on one of our barrels. You will receive exclusive updates and behind-the-scenes images by email.',
+        'crowdfunding.toast.description': 'Every euro counts. Your donation supports the start up of our winery in South Africa, and helps us build an authentic and sustainable wine project. <br> <br> Your name will be marked on one of our barrels. You will receive exclusive updates and behind-the-scenes footage by email.',
         'crowdfunding.see_more': 'See more',
         
         'crowdfunding.history.name': 'PRE-ORDER YOUR BOTTLES',
@@ -112,21 +120,29 @@ const translations = {
         'crowdfunding.history.description': 'Mixed case 3 bottles - € 120<br>Mixed case 6 bottles - € 240<br>Mixed case 12 bottles - € 370 <br> <br> Would you like to pre-order in larger quantities? Feel free to contact us for more details.',
         
         'crowdfunding.winedine.name': 'A DINNER LIKE NO OTHER',
-        'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu or South Africa, featuring a selection of wines paired with each course. An intimate moment, limited to six guests.',
+        'crowdfunding.winedine.description': 'Share a dinner with us in Condrieu (mid apr-dec) or South Africa (mid jan-apr), featuring a selection of wines paired with each course. An intimate moment, limited to six guests.',
         
         'crowdfunding.barrel.name': 'PRIVATE TOUR CONDRIEU & CÔTE RÔTIE',
-        'crowdfunding.barrel.description': 'Spend a day with us in Condrieu, discovering the wines of the Northern Rhône Valley. Lunch and transport from Lyon included.',
+        'crowdfunding.barrel.description': 'Spend a day with us in Condrieu (mid apr-dec), discovering the wines of the Northern Rhône Valley. Lunch and transport from Lyon included.',
         
         'crowdfunding.tour.name': 'PRIVATE TOUR SOUTH AFRICA',
-        'crowdfunding.tour.description': 'Spend 5 days on a private visit by our side, discovering the wine regions of South Africa. Between tastings, meetings with winemakers, spectacular landscapes and moments of sharing, you will experience a complete immersion in our universe. Accommodation, transport and lunches included (flights not included).',
+        'crowdfunding.tour.description': 'Spend 5 days on a private tour with us (mid jan-apr), discovering the wine regions of South Africa. You will experience a complete immersion in our world. We will do tastings, meet winemakers, enjoy spectacular landscapes and share moments in the vineyard. Accommodation, transport and lunches included (flights not included).',
         
         'crowdfunding.experience.name': 'BUY YOUR OWN BARREL',
-        'crowdfunding.experience.description': 'Buy your barrel (approximately 250 bottles of wine of your choice) and receive your bottles in a specialized case.',
+        'crowdfunding.experience.description': 'Buy your barrel (approximately 250 bottles of wine of your choice) and receive your bottles in a specialised case.',
         
         'crowdfunding.disclaimer.title': 'DISCLAIMER',
         'crowdfunding.disclaimer.wines': '*Wines will be available in spring 2027',
         'crowdfunding.disclaimer.shipping': '*Shipping costs are not included',
         'crowdfunding.contact.button': 'Contact us',
+        
+        // Newsletter
+        'newsletter.title': 'STAY INFORMED',
+        'newsletter.description': 'Subscribe to our newsletter to receive our news and exclusive updates',
+        'newsletter.placeholder': 'Your email address',
+        'newsletter.button': 'SUBSCRIBE',
+        'newsletter.success': 'Thank you for subscribing!',
+        'newsletter.error': 'An error occurred. Please try again.',
         
         // Contact Section
         'contact.title': 'CONTACT<br>US',
@@ -146,15 +162,15 @@ const translations = {
         
         // Hero Section 2
         'hero.title': 'CONSPIRACY<br>OF TWO',
-        'hero.description.p1': 'Conspiracy of Two is ontstaan uit de ontmoeting van twee gepassioneerde mensen uit verschillende culturen, een Fransman en een Nederlandse, beiden verenigd door hun liefde voor wijn en de wens om iets zeldzaams te creëren.',
-        'hero.description.p2': 'Onze ambitie is om uitzonderlijke wijnen te produceren in Zuid-Afrika, door de expertise die we door onze vele ervaringen hebben opgedaan te combineren met de unieke terroirs van Swartland, een wijnstreek van opmerkelijke rijkdom.',
+        'hero.description.p1': 'Conspiracy of Two is ontstaan uit de ontmoeting tussen twee gepassioneerde mensen uit verschillende culturen. Een Fransman en een Nederlandse. We zijn verbonden door onze liefde voor wijn en de droom om iets unieks te creëren.',
+        'hero.description.p2': 'Het doel is om uitzonderlijke wijnen te produceren in Zuid-Afrika. Door de jaren heen hebben we veel expertise op gedaan. Deze ervaringen combineren we met het unieke terroir van de Swartland. Een wijnstreek van opmerkelijke rijkdom.',
         'hero.availability': 'Wijnen zullen beschikbaar zijn in het voorjaar van 2027',
         
         // Founders Section
         'founders.rianne.name': 'RIANNE OGINK',
-        'founders.rianne.bio': 'Voormalig sommelier bij het Michelin-sterrenrestaurant Zoldering in Amsterdam, Rianne heeft de wereld bereisd om grote wijnregio\'s te verkennen terwijl ze haar WSET Diploma (niveau 4) behaalde. Haar reis bracht haar van Château Smith Haut Lafitte en Château Palmer in Bordeaux naar Damascene in Zuid-Afrika, voordat ze zich aansloot bij het landgoed Georges Vernay in Condrieu, waar ze onlangs werkte als assistent-wijnmaker.',
+        'founders.rianne.bio': 'Voormalig sommelier bij het Michelin-sterrenrestaurant Zoldering in Amsterdam. Rianne heeft de wereld over gereisd om vele wijnregio\'s te verkennen terwijl ze haar WSET Diploma (niveau 4) behaalde. De overstap van sommelier naar wijnmaker bracht haar van Château Smith Haut Lafitte en Château Palmer in Bordeaux naar Damascene in Zuid-Afrika. Waarna ze zich aansloot bij domaine Georges Vernay in Condrieu, waar ze tot voor kort werkte als assistent wijnmaker.',
         'founders.vincent.name': 'VINCENT PONTET',
-        'founders.vincent.bio': 'Geboren in Condrieu, in het hart van de Rhône, heeft Vincent meer dan twintig jaar ervaring opgedaan in iconische landgoederen: E. Guigal in de Rhône, Joseph Drouhin in Bourgondië, Giesen in Nieuw-Zeeland, Bimbadgen in Australië en Boekenhoutskloof in Zuid-Afrika. Voor Vincent is wijn een taal op zich, een duizendjarig erfgoed dat het verhaal vertelt van mensen, terroirs en het verstrijken van de tijd.',
+        'founders.vincent.bio': 'Geboren in Condrieu, in het hart van de Rhône, heeft Vincent meer dan twintig jaar ervaring opgedaan. Hij werkte bij iconische producenten: E. Guigal in de Rhône, Joseph Drouhin in Bourgogne, Giesen in Nieuw-Zeeland, Bimbadgen in Australië en Boekenhoutskloof in Zuid-Afrika. Voor Vincent is wijn een taal op zich, een product dat het verhaal vertelt van mensen, terroirs en het verstrijken van de tijd.',
         
         // Wines Section
         'wines.chenin': 'CHENIN BLANC',
@@ -165,38 +181,46 @@ const translations = {
         // Adventure Section
         'adventure.title': 'SLUIT JE AAN<br>BIJ ONS<br>AVONTUUR',
         'adventure.subtitle': 'CROWDFUNDING',
-        'adventure.text.p1': 'In januari 2026 gaan we naar Swartland, Zuid-Afrika, om Chenin Blanc, Viognier en Syrah te selecteren van wijnmakers die we al vele jaren kennen. Zo ontstaat onze eerste vintage, een jaar later gebotteld en vervolgens in het voorjaar van 2027 met jullie gedeeld.',
-        'adventure.text.p2': 'De weg is lang, maar elke stap telt. Met jullie steun wordt Conspiracy of Two werkelijkheid, de bekroning van een gedeelde passie en vooral een kinderdroom.',
+        'adventure.text.p1': 'In januari 2026 gaan we naar Swartland, Zuid-Afrika. Hier selecteren wij Chenin Blanc, Viognier en Syrah van bevriende wijnboeren. Onze eerste vintage zal een jaar later gebotteld worden. In het voorjaar van 2027 zijn de wijnen klaar om met jullie te delen.',
+        'adventure.text.p2': 'De weg is lang, maar elke stap telt. Met jullie steun wordt Conspiracy of Two werkelijkheid, het resultaat van een gedeelde passie en vooral een kinderdroom.',
         
         // Crowdfunding Section
         'crowdfunding.title': 'STEUN ONS PROJECT',
-        'crowdfunding.intro': 'Kies je niveau van deelname en sluit je aan bij het Conspiracy of Two avontuur',
+        'crowdfunding.intro': 'Kies uw niveau van deelname en sluit u aan bij het Conspiracy of Two avontuur',
         
         'crowdfunding.toast.name': 'VRIJE DONATIE',
-        'crowdfunding.toast.price': 'Vrij',
-        'crowdfunding.toast.description': 'Elke euro telt. Je vrije donatie ondersteunt de geboorte van ons wijndomein in Zuid-Afrika en helpt ons een authentiek en duurzaam avontuur op te bouwen. <br> <br> Je naam wordt ingeschreven op een van onze vaten. Je ontvangt exclusieve updates en beelden achter de schermen per e-mail.',
+        'crowdfunding.toast.price': 'Eigen bedrag',
+        'crowdfunding.toast.description': 'Elke euro telt. Uw donatie maakt het mogelijk om ons wijndomein in Zuid-Afrika te starten. Deze donatie draagt bij aan een authentiek en duurzaam project. <br> <br> Uw naam komt op een van onze vaten. U ontvangt exclusieve updates en behind the scenes beelden per e-mail.',
         'crowdfunding.see_more': 'Meer zien',
         
-        'crowdfunding.history.name': 'BESTEL JE FLESSEN VOORAF',
+        'crowdfunding.history.name': 'BESTEL UW FLESSEN VOORAF',
         'crowdfunding.history.price': 'Meerdere opties',
-        'crowdfunding.history.description': 'Gemengde doos 3 flessen - € 120<br>Gemengde doos 6 flessen - € 240<br>Gemengde doos 12 flessen - € 370 <br> <br> Wil je in grotere hoeveelheden vooraf bestellen? Neem gerust contact met ons op voor meer informatie.',
+        'crowdfunding.history.description': 'Gemengde doos 3 flessen - € 120<br>Gemengde doos 6 flessen - € 240<br>Gemengde doos 12 flessen - € 370 <br> <br> Wilt u grotere hoeveelheden vooraf bestellen? Neem contact met ons op voor meer informatie.',
         
         'crowdfunding.winedine.name': 'EEN DINER ZOALS GEEN ANDER',
-        'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu of Zuid-Afrika, met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten.',
+        'crowdfunding.winedine.description': 'Deel een diner met ons in Condrieu (mid apr-dec) of Zuid-Afrika (mid jan-apr), met een selectie wijnen gecombineerd met elk gerecht. Een intiem moment, beperkt tot zes gasten per reservering.',
         
         'crowdfunding.barrel.name': 'PRIVÉTOUR CONDRIEU & CÔTE RÔTIE',
-        'crowdfunding.barrel.description': 'Breng een dag door met ons in Condrieu en ontdek de wijnen van de noordelijke Rhônevallei. Lunch en vervoer vanuit Lyon inbegrepen.',
+        'crowdfunding.barrel.description': 'Breng een dag door met ons in Condrieu en ontdek de wijnen van de noordelijke Rhône (mid apr-dec). Lunch en vervoer vanuit Lyon inbegrepen.',
         
         'crowdfunding.tour.name': 'PRIVÉTOUR ZUID-AFRIKA',
-        'crowdfunding.tour.description': 'Breng 5 dagen door op een privébezoek aan onze zijde en ontdek de wijnregio\'s van Zuid-Afrika. Tussen proeverijen, ontmoetingen met wijnmakers, spectaculaire landschappen en momenten van delen, beleef je een complete onderdompeling in ons universum. Accommodatie, vervoer en lunches inbegrepen (vluchten niet inbegrepen).',
+        'crowdfunding.tour.description': 'Breng 5 dagen met ons door tijdens privé tour door de wijnregio\'s van Zuid-Afrika (Mid jan-apr). We doen unieke proeverijen, ontmoeten wijnmakers, genieten van de spectaculaire landschappen en momenten van delen leerzame momenten in de wijngaard. Het is een complete onderdompeling in onze wereld. Inclusief accommodatie, vervoer en lunches. (vluchten niet inbegrepen).',
         
-        'crowdfunding.experience.name': 'KOOP JE EIGEN VAT',
-        'crowdfunding.experience.description': 'Koop je vat (ongeveer 250 flessen wijn naar keuze) en ontvang je flessen in een gespecialiseerde kist.',
+        'crowdfunding.experience.name': 'KOOP UW EIGEN VAT',
+        'crowdfunding.experience.description': 'Koop uw vat (ongeveer 250 flessen wijn naar keuze) en ontvang de flessen in een gespecialiseerde kist.',
         
         'crowdfunding.disclaimer.title': 'DISCLAIMER',
-        'crowdfunding.disclaimer.wines': '*Wijnen zullen beschikbaar zijn in het voorjaar van 2027',
+        'crowdfunding.disclaimer.wines': '*Wijnen zijn beschikbaar in het voorjaar van 2027',
         'crowdfunding.disclaimer.shipping': '*Verzendkosten zijn niet inbegrepen',
         'crowdfunding.contact.button': 'Neem contact op',
+        
+        // Newsletter
+        'newsletter.title': 'BLIJF OP DE HOOGTE',
+        'newsletter.description': 'Schrijf je in voor onze nieuwsbrief voor nieuwtjes en exclusieve updates',
+        'newsletter.placeholder': 'Jouw e-mail adres',
+        'newsletter.button': 'INSCHRIJVEN',
+        'newsletter.success': 'Bedankt voor je inschrijving!',
+        'newsletter.error': 'Er ging iets mis. Probeer het nog eens.',
         
         // Contact Section
         'contact.title': 'NEEM<br>CONTACT OP',

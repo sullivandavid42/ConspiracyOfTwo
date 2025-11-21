@@ -240,6 +240,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.8;
     font-weight: 400;
     margin-bottom: 2rem;
+    text-align: justify;
 }
 
 .hero-availability {
@@ -290,6 +291,7 @@ h1, h2, h3, h4, h5, h6,
 .founder-content {
     padding: 1rem 2.5rem 2.5rem 2.5rem;
     flex: 1;
+    text-align: justify;
 }
 
 .founder-name {
@@ -307,6 +309,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.6;
     font-weight: 400;
     margin: 0;
+    text-align: justify;
 }
 
 /* Wines Section */
@@ -409,7 +412,8 @@ h1, h2, h3, h4, h5, h6,
     color: #ffffff;
     line-height: 1.8;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .adventure-image {
@@ -573,6 +577,7 @@ h1, h2, h3, h4, h5, h6,
     color: #ffffff;
     line-height: 1.6;
     margin: 0;
+    text-align: justify;
 }
 
 .crowdfunding-footer {
@@ -622,6 +627,94 @@ h1, h2, h3, h4, h5, h6,
     border-color: #ffffff;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    max-width: 800px;
+    margin: 5rem auto 0;
+    padding: 3rem 2rem 1.5rem 2rem;
+    text-align: center;
+    border-top: 1px solid #2a2a2a;
+}
+
+.newsletter-title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    letter-spacing: 0.1em;
+}
+
+.newsletter-description {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    background-color: #1a1a1a;
+    border: 2px solid #333333;
+    border-radius: 4px;
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.newsletter-input:focus {
+    outline: none;
+    border-color: #ffffff;
+    background-color: #000000;
+}
+
+.newsletter-input::placeholder {
+    color: #666666;
+}
+
+.newsletter-button {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+.newsletter-button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+}
+
+.newsletter-message {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    min-height: 24px;
+}
+
+.newsletter-message.success {
+    color: #4caf50;
+}
+
+.newsletter-message.error {
+    color: #f44336;
 }
 
 /* Contact Section */
@@ -1032,6 +1125,30 @@ h1, h2, h3, h4, h5, h6,
     .funding-card.expanded .funding-toggle-btn {
         background-color: #ffffff;
         color: #000000;
+    }
+
+    /* Newsletter responsive */
+    .newsletter-section {
+        padding: 2rem 1.5rem;
+        margin: 3rem auto 0;
+    }
+
+    .newsletter-title {
+        font-size: 1.5rem;
+    }
+
+    .newsletter-description {
+        font-size: 0.9rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .newsletter-button {
+        width: 100%;
+        padding: 1rem;
     }
 }
 
