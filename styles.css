@@ -883,6 +883,20 @@ h1, h2, h3, h4, h5, h6,
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
 }
 
+.form-message {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    min-height: 24px;
+}
+
+.form-message.success {
+    color: #4caf50;
+}
+
+.form-message.error {
+    color: #f44336;
+}
+
 /* Responsive Design */
 
 /* Small Desktop Screens (MacBook Air, etc.) */

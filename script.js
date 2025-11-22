@@ -561,36 +561,94 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Newsletter form submission
+    // Contact form submission with Web3Forms
+    const contactForm = document.getElementById('contactForm');
+    const contactFormMessage = document.getElementById('contactFormMessage');
+    
+    if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(contactForm);
+            const submitButton = contactForm.querySelector('.form-submit');
+            
+            // Disable button during submission
+            submitButton.disabled = true;
+            submitButton.textContent = '...';
+            
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    contactFormMessage.textContent = t('newsletter.success'); // Réutilise la traduction
+                    contactFormMessage.className = 'form-message success';
+                    contactForm.reset();
+                } else {
+                    contactFormMessage.textContent = t('newsletter.error');
+                    contactFormMessage.className = 'form-message error';
+                }
+            } catch (error) {
+                contactFormMessage.textContent = t('newsletter.error');
+                contactFormMessage.className = 'form-message error';
+            }
+            
+            // Re-enable button
+            submitButton.disabled = false;
+            submitButton.textContent = t('contact.form.submit');
+            
+            // Clear message after 5 seconds
+            setTimeout(() => {
+                contactFormMessage.textContent = '';
+                contactFormMessage.className = 'form-message';
+            }, 5000);
+        });
+    }
+
+    // Newsletter form submission with Web3Forms
     const newsletterForm = document.getElementById('newsletterForm');
     const newsletterMessage = document.getElementById('newsletterMessage');
     
     if (newsletterForm) {
-        newsletterForm.addEventListener('submit', function(e) {
+        newsletterForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            const emailInput = document.getElementById('newsletterEmail');
-            const email = emailInput.value.trim();
+            const formData = new FormData(newsletterForm);
+            const submitButton = newsletterForm.querySelector('.newsletter-button');
             
-            // Simple email validation
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            // Disable button during submission
+            submitButton.disabled = true;
+            const originalText = submitButton.textContent;
+            submitButton.textContent = '...';
             
-            if (!emailRegex.test(email)) {
+            try {
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    newsletterMessage.textContent = t('newsletter.success');
+                    newsletterMessage.className = 'newsletter-message success';
+                    newsletterForm.reset();
+                } else {
+                    newsletterMessage.textContent = t('newsletter.error');
+                    newsletterMessage.className = 'newsletter-message error';
+                }
+            } catch (error) {
                 newsletterMessage.textContent = t('newsletter.error');
                 newsletterMessage.className = 'newsletter-message error';
-                return;
             }
             
-            // Here you would normally send the email to your backend/newsletter service
-            // For now, we'll just show a success message
-            console.log('Newsletter subscription:', email);
-            
-            // Show success message
-            newsletterMessage.textContent = t('newsletter.success');
-            newsletterMessage.className = 'newsletter-message success';
-            
-            // Clear the input
-            emailInput.value = '';
+            // Re-enable button
+            submitButton.disabled = false;
+            submitButton.textContent = originalText;
             
             // Clear message after 5 seconds
             setTimeout(() => {
