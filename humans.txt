@@ -1,0 +1,16 @@
+/* TEAM */
+Founders: Vincent Pontet & Rianne Ogink
+Contact: wine@conspiracyoftwo.com
+Instagram: @conspiracy.of.two
+Location: Swartland, South Africa
+
+/* SITE */
+Developer: Sullivan DAVID
+Last update: 2025/11/24
+Language: French / English / Dutch
+Doctype: HTML5
+IDE: Visual Studio Code
+
+/* THANKS */
+Web3Forms for form management
+Google Fonts for typography
