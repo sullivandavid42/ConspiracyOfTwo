@@ -561,11 +561,43 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Custom validation messages for contact form
+    function setupCustomValidation(form) {
+        const inputs = form.querySelectorAll('input[required], textarea[required], input[pattern]');
+        
+        inputs.forEach(input => {
+            input.addEventListener('invalid', function(e) {
+                if (this.validity.valueMissing) {
+                    this.setCustomValidity(t('contact.form.validation.required'));
+                } else if (this.validity.typeMismatch || this.validity.patternMismatch) {
+                    if (this.type === 'email') {
+                        this.setCustomValidity(t('contact.form.validation.email'));
+                    } else if (this.type === 'tel') {
+                        this.setCustomValidity(t('contact.form.validation.phone'));
+                    } else {
+                        this.setCustomValidity(t('contact.form.validation.pattern'));
+                    }
+                }
+            });
+            
+            input.addEventListener('input', function() {
+                this.setCustomValidity('');
+            });
+            
+            input.addEventListener('change', function() {
+                this.setCustomValidity('');
+            });
+        });
+    }
+
     // Contact form submission with Web3Forms
     const contactForm = document.getElementById('contactForm');
     const contactFormMessage = document.getElementById('contactFormMessage');
     
     if (contactForm) {
+        // Setup custom validation
+        setupCustomValidation(contactForm);
+        
         contactForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             
@@ -614,6 +646,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const newsletterMessage = document.getElementById('newsletterMessage');
     
     if (newsletterForm) {
+        // Setup custom validation for newsletter
+        setupCustomValidation(newsletterForm);
+        
         newsletterForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             

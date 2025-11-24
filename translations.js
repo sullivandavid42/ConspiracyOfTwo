@@ -68,14 +68,19 @@ const translations = {
         
         // Contact Section
         'contact.title': 'NOUS<br>CONTACTER',
-        'contact.email': 'contact@conspiracyoftwo.com',
+        'contact.email': 'wine@conspiracyoftwo.com',
         'contact.instagram': 'conspiracy.of.two',
         'contact.address.line1': 'Riebeek Valley Wine Co',
         'contact.address.line2': 'Swartland, South Africa',
         'contact.form.name': 'Nom:',
-        'contact.form.phone': 'Numéro de téléphone:',
+        'contact.form.email': 'Email:',
+        'contact.form.phone': 'Numéro de téléphone (optionnel):',
         'contact.form.message': 'Votre message:',
-        'contact.form.submit': 'ENVOYER'
+        'contact.form.submit': 'ENVOYER',
+        'contact.form.validation.email': 'Veuillez entrer une adresse email valide',
+        'contact.form.validation.phone': 'Veuillez entrer un numéro de téléphone valide (8-20 caractères, chiffres, +, espaces, - ou parenthèses)',
+        'contact.form.validation.required': 'Veuillez renseigner ce champ',
+        'contact.form.validation.pattern': 'Veuillez respecter le format requis'
     },
     
     en: {
@@ -146,14 +151,19 @@ const translations = {
         
         // Contact Section
         'contact.title': 'CONTACT<br>US',
-        'contact.email': 'contact@conspiracyoftwo.com',
+        'contact.email': 'wine@conspiracyoftwo.com',
         'contact.instagram': 'conspiracy.of.two',
         'contact.address.line1': 'Riebeek Valley Wine Co',
         'contact.address.line2': 'Swartland, South Africa',
         'contact.form.name': 'Name:',
-        'contact.form.phone': 'Phone number:',
+        'contact.form.email': 'Email:',
+        'contact.form.phone': 'Phone number (optional):',
         'contact.form.message': 'Your message:',
-        'contact.form.submit': 'SEND'
+        'contact.form.submit': 'SEND',
+        'contact.form.validation.email': 'Please enter a valid email address',
+        'contact.form.validation.phone': 'Please enter a valid phone number (8-20 characters, digits, +, spaces, - or parentheses)',
+        'contact.form.validation.required': 'Please fill out this field',
+        'contact.form.validation.pattern': 'Please match the requested format'
     },
     
     nl: {
@@ -224,14 +234,19 @@ const translations = {
         
         // Contact Section
         'contact.title': 'NEEM<br>CONTACT OP',
-        'contact.email': 'contact@conspiracyoftwo.com',
+        'contact.email': 'wine@conspiracyoftwo.com',
         'contact.instagram': 'conspiracy.of.two',
         'contact.address.line1': 'Riebeek Valley Wine Co',
         'contact.address.line2': 'Swartland, Zuid-Afrika',
         'contact.form.name': 'Naam:',
-        'contact.form.phone': 'Telefoonnummer:',
+        'contact.form.email': 'Email:',
+        'contact.form.phone': 'Telefoonnummer (optioneel):',
         'contact.form.message': 'Jouw bericht:',
-        'contact.form.submit': 'VERZENDEN'
+        'contact.form.submit': 'VERZENDEN',
+        'contact.form.validation.email': 'Vul een geldig e-mailadres in',
+        'contact.form.validation.phone': 'Vul een geldig telefoonnummer in (8-20 tekens, cijfers, +, spaties, - of haakjes)',
+        'contact.form.validation.required': 'Vul dit veld in',
+        'contact.form.validation.pattern': 'Volg het gevraagde formaat'
     }
 };
 
@@ -310,6 +325,14 @@ function updatePageContent() {
         } else {
             element.innerHTML = translation;
         }
+    });
+    
+    // Update title attributes for validation messages
+    const titleElements = document.querySelectorAll('[data-translate-title]');
+    titleElements.forEach(element => {
+        const key = element.getAttribute('data-translate-title');
+        const translation = t(key);
+        element.title = translation;
     });
     
     document.documentElement.lang = currentLanguage;

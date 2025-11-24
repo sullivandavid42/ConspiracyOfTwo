@@ -114,7 +114,6 @@
             </h1>
         </div>
     </section>
-    <h3 style="text-align: center; color: #ffffff;">DEV VERSION 2.0.6</h3>
 
     <!-- Main Hero Section -->
     <section class="main-hero" role="region" aria-label="About us">
@@ -341,14 +340,14 @@
                         <span class="contact-text" data-translate="contact.email"></span>
                     </div>
                     
-                    <div class="contact-info-item">
+                    <a href="https://www.instagram.com/conspiracy.of.two/" target="_blank" rel="noopener noreferrer" class="contact-info-item contact-link">
                         <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                             <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
                             <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                         </svg>
                         <span class="contact-text" data-translate="contact.instagram"></span>
-                    </div>
+                    </a>
                     
                     <div class="contact-info-item">
                         <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -380,12 +379,16 @@
                         </div>
                         <div class="form-group">
                             <label for="phone" data-translate="contact.form.phone"></label>
-                            <input type="tel" id="phone" name="phone" class="form-input">
+                            <input type="tel" id="phone" name="phone" class="form-input" pattern="[0-9+\s\-\(\)]{8,20}" data-translate-title="contact.form.validation.phone">
                         </div>
                     </div>
                     
-                    <!-- Email field (required by Web3Forms) -->
-                    <input type="hidden" id="contact-email" name="email" value="contact@conspiracyoftwo.com">
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="contact-email" data-translate="contact.form.email"></label>
+                            <input type="email" id="contact-email" name="email" class="form-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" data-translate-title="contact.form.validation.email" required>
+                        </div>
+                    </div>
                     
                     <div class="form-group full-width">
                         <label for="message" data-translate="contact.form.message"></label>
@@ -398,6 +401,14 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="copyright">© 2025 Conspiracy Of Two. All rights reserved.</p>
+            <p class="developer">Made with love by Sullivan DAVID</p>
+        </div>
+    </footer>
 
     <script src="translations.js"></script>
     <script src="script.js"></script>

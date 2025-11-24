@@ -791,6 +791,15 @@ h1, h2, h3, h4, h5, h6,
     color: #ffffff;
 }
 
+.contact-link {
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.contact-link:hover {
+    opacity: 0.7;
+}
+
 .contact-icon {
     width: 24px;
     height: 24px;
@@ -1723,4 +1732,31 @@ h1, h2, h3, h4, h5, h6,
     .contact-section {
         padding: 3rem 1.5rem;
     }
+}
+
+/* Footer */
+.site-footer {
+    background: #000000;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 0.95rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+}
+
+.developer {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85rem;
+    margin: 0;
+    font-style: italic;
 }
