@@ -1231,15 +1231,19 @@ h1, h2, h3, h4, h5, h6,
     
     .hero-text-section {
         padding: 2rem 1.5rem;
+        margin-right: 0;
+        text-align: center;
     }
     
     .main-title {
         font-size: 3rem;
         margin-bottom: 1.5rem;
+        text-align: center;
     }
     
     .hero-description {
         font-size: 0.95rem;
+        text-align: center;
     }
     
     .founders-section {
